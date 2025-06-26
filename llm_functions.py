@@ -1,4 +1,7 @@
 # Copyright (c) Adrian Robinson 2025
+# This software is dual-licensed under the MIT License (for NHS use only)
+# and a Commercial License (for other commercial use).
+# For commercial licensing inquiries, please contact adrian.j.robinson@gmail.com
 
 import streamlit as st
 import google.generativeai as genai
