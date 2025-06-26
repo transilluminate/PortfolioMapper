@@ -129,11 +129,12 @@ with col2:
     # Define schema files here, as it's used by the checkboxes
     schema_files = {
         "CfAP Advanced Practice Capabilities": "Schemas/cfap_ap.json",
-        "RPS Prescribing Competencies": "Schemas/rps_prescribing.json",        "NMC Nursing Standards": "Schemas/nmc_nursing.json",
+        "RPS Prescribing Competencies": "Schemas/rps_prescribing.json",        
+        "NMC Nursing Standards": "Schemas/nmc_nursing.json",
         "HCPC Generic": "Schemas/hcpc_generic.json", # Internal use
         "HCPC Occupational Therapy Standards": "Schemas/hcpc_ot.json",
-        "HCPC Paramedic Standards": "Schemas/hcpc_paramedics.json",
-        "HCPC Physiotherapy Standards": "Schemas/hcpc_physiotherapy.json", 
+        "HCPC Paramedic Standards": "Schemas/hcpc_pa.json",
+        "HCPC Physiotherapy Standards": "Schemas/hcpc_ph.json", 
     }
     framework_options = [key for key in schema_files.keys() if key != "HCPC Generic"]
 
