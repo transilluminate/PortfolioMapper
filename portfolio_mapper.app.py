@@ -103,7 +103,7 @@ def reset_app():
 
 # --- Main App ---
 st.title("🗺️ AI Portfolio Mapper")
-st.markdown("This tool uses AI to map your clinical reflections against multiple professional competency frameworks at the same time. Your data is not stored.")
+st.markdown("This tool uses AI to map your clinical reflections against multiple professional competency frameworks at the same time. No data is stored by this app, however, your reflection text **is** passed to Google Gemini Vertex API for processing. Please see the Google page on [Generative AI and data governance](https://cloud.google.com/vertex-ai/generative-ai/docs/data-governance) for more details.")
 
 # --- Input Section ---
 col1, col2 = st.columns([2, 1]) # Give more space to the text area
