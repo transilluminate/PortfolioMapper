@@ -130,7 +130,8 @@ with col2:
     schema_files = {
         "CfAP Advanced Practice Capabilities": "Schemas/cfap_ap.json",
         "RPS Prescribing Competencies": "Schemas/rps_prescribing.json",        
-        "NMC Nursing Standards": "Schemas/nmc_nursing.json",
+        "NMC Standards": "Schemas/nmc_standards.json",
+        "NMC Code": "Schemas/nmc_code.json",
         "HCPC Generic": "Schemas/hcpc_generic.json", # Internal use
         "HCPC Occupational Therapy Standards": "Schemas/hcpc_ot.json",
         "HCPC Paramedic Standards": "Schemas/hcpc_pa.json",
