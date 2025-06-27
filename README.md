@@ -38,11 +38,11 @@ To run this application locally, follow these steps:
     *   Be sure to not upload your API key if using github, add this to the `.gitignore` file
 
 5.  **Place Schema Files:**
-    Ensure your competency framework JSON files are located in the `Schemas/` directory. Example files (`cfap_ap.json`, `hcpc_generic.json`, `hcpc_paramedics.json`, `rps_prescribing.json`, etc.) are expected.
+    Ensure your competency framework JSON files are located in the `Schemas/` directory. Example files (`cfap_ap.json`, `hcpc_generic.json`, `hcpc_pa.json`, `rps_prescribing.json`, etc.) are expected.
 
 ### 🏃 How to Run:
 
-With your virtual environment activated, run the Streamlit application using the command: `.venv/bin/python -m streamlit run portfolio_mapper.app.py`. This will open the application in your web browser.
+With your virtual environment activated, run the Streamlit application using the command: `streamlit run portfolio_mapper.app.py`. This will open the application in your web browser.
 
 ### License:
 
