@@ -39,9 +39,14 @@ def load_data():
 
 def main():
     """Main function to run the Streamlit application."""
-    st.set_page_config(page_title="Portfolio Mapper AI", layout="wide")
+    st.set_page_config(
+        page_title="Portfolio Mapper AI",
+        page_icon="🗺️",
+        initial_sidebar_state="expanded",
+        layout="wide"
+        )
     st.title("🗺️ AI-Powered Portfolio Mapper")
-    st.markdown("This tool uses AI to map your clinical reflections against multiple professional competency frameworks at the same time. No data is stored by this app, however, your reflection text **is** passed to Google Gemini Vertex API for processing. Please see the Google page on [Generative AI and data governance](https://cloud.google.com/vertex-ai/generative-ai/docs/data-governance) for more details. The source code is available on [Github](https://github.com/transilluminate/PortfolioMapper).")
+    st.markdown("This tool uses AI to map your clinical reflections against multiple professional competency frameworks at the same time. No data is stored by this app, however, your reflection text **is** passed to Google Gemini Vertex API for processing. Please see the Google page on [Generative AI and data governance](https://cloud.google.com/vertex-ai/generative-ai/docs/data-governance) for more details. The source code for this app is available on [Github](https://github.com/transilluminate/PortfolioMapper).")
 
     # --- Initialize Session State ---
     if "processing" not in st.session_state:
@@ -225,7 +230,7 @@ def main():
             )
 
         if st.session_state.processing:
-            with st.spinner("⏱️ Your reflection is being analysed... This may take a moment."):
+            with st.spinner("⏱️ Your reflection is being analysed, this may take a moment..."):
                 selected_frameworks_dict = {
                     code: available_frameworks[code] 
                     for code in all_required_codes if code in available_frameworks
@@ -318,7 +323,11 @@ def main():
             with col1:
                 st.download_button("💾 Download as CSV", csv, f"portfolio_analysis_{timestamp}.csv", "text/csv", use_container_width=True)
             with col2:
-                pdf_bytes = generate_pdf_report(analysis_result, framework_library)
+                pdf_bytes = generate_pdf_report(
+                    analysis_result=analysis_result,
+                    available_frameworks=framework_library,
+                    reflection_text=st.session_state.reflection_text
+                )
                 st.download_button("📄 Download as PDF", pdf_bytes, f"portfolio_analysis_{timestamp}.pdf", "application/pdf", use_container_width=True)
         else:
             st.info("No specific competencies were matched based on your reflection.")
