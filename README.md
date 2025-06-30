@@ -27,25 +27,25 @@ The project is structured as a standard Python package to ensure maintainability
 ```
 PortfolioMapper/
 ├── .streamlit/
-│   └── secrets.toml      # For API keys
-├── config/               # User-facing configuration files
+│   └── secrets.toml              # For API keys
+├── config/                       # User-facing configuration files
 │   ├── academic_levels.yaml
 │   ├── llm_config.yaml
 │   ├── prompts.yaml
 │   └── roles.yaml
-├── frameworks/           # Competency framework definitions
+├── frameworks/                   # Competency framework definitions
 │   └── ...
 ├── src/
-│   └── portfolio_mapper/ # The main Python package
+│   └── portfolio_mapper/         # The main Python package
 │       ├── __init__.py
-│       ├── app.py        # Main Streamlit UI and application flow
-│       ├── data_loader.py# Loads and validates all YAML data
-│       ├── logic.py      # Core business logic and prompt assembly
-│       ├── llm_functions.py # Handles communication with the Gemini API
-│       ├── reporting.py  # Generates PDF and CSV reports
-│       └── models/       # Pydantic models for data validation
+│       ├── app.py                # Main Streamlit UI and application flow
+│       ├── data_loader.py        # Loads and validates all YAML data
+│       ├── logic.py              # Core business logic and prompt assembly
+│       ├── llm_functions.py      # Handles communication with the Gemini API
+│       ├── reporting.py          # Generates PDF and CSV reports
+│       └── models/               # Pydantic models for data validation
 │           └── ...
-└── run_app.py            # The application launcher script
+└── portfolio_mapper.app.py       # The application launcher script
 ```
 
 -   **`portfolio_mapper.app.py`**: The entry point for Streamlit. It correctly imports and runs the application as a package.
