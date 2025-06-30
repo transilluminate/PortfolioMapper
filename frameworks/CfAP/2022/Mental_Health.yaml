@@ -1,10 +1,10 @@
 metadata:
   organisation: NHS England, Centre for Advancing Practice (CfAP)
   title: Mental health advanced practice area specific capability and curriculum framework
-  date: "2025"
+  date: "2022"
   abbreviation: "CfAP Advanced: Mental Health (2022)"
   version: "1"
-  dependencies: ["CfAP-2025-Advanced-Generic"]
+  dependencies: ["CfAP-2025-Advanced_Generic"]
   source_url: "https://advanced-practice.hee.nhs.uk/mpf2025/capabilities/"
 
 structure:

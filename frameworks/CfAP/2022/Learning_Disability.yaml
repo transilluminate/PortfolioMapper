@@ -1,0 +1,719 @@
+metadata:
+  organisation: NHS England, Centre for Advancing Practice (CfAP)
+  title: Supporting people with a learning disability, including people with a learning disability who are autistic advanced practice area specific capability and curriculum framework
+  date: "2022"
+  abbreviation: "CfAP Advanced: Learning Disability (2022)"
+  version: "1"
+  dependencies: ["CfAP-2025-Advanced_Generic"]
+  source_url: "https://advanced-practice.hee.nhs.uk/mpf2025/capabilities/"
+
+structure:
+- id: 'A'
+  node_type: Domain
+  text: "Personalised and collaborative working"
+  children:
+  - id: '1'
+    node_type: Capability
+    text: "The advanced practitioner will undertake complex collaborative assessment, formulation and diagnosis to identify health and social care needs."
+    source_notes:
+    - "Mapped to CfAP Multi-professional framework: 1.2, 1.3, 1.4, 1.5, 1.6"
+    children:
+    - id: '1.a'
+      node_type: Statement
+      text: "Demonstrate a critical understanding of the broadened level of responsibility and autonomy of advanced practice when undertaking complex, comprehensive, collaborative holistic assessment, formulation and diagnosis in line with current best practice and the evidence base, including in relation to the co-morbidities experienced by people with a learning disability."
+    - id: '1.b'
+      node_type: Statement
+      text: "Gather, synthesise and critically appraise information from appropriate sources (including previous histories and assessments) to facilitate person-centred, holistic assessment."
+    - id: '1.c'
+      node_type: Statement
+      text: "Identify different factors that may impact upon people with a learning disability (e.g.. protected characteristics)."
+    - id: '1.d'
+      node_type: Statement
+      text: "Critically appraise and analyse complex data to inform personalised and collaborative approaches to the planning of person-centred care."
+    - id: '1.e'
+      node_type: Statement
+      text: "Within clinical competence and scope of practice, act on professional judgement to identify where further specialist assessment is required, including referral for and interpretation of diagnostic tests."
+    - id: '1.f'
+      node_type: Statement
+      text: "Critically appraise information obtained, taking account of potential associated conditions; for example, limited vision, epilepsy, physical disabilities and mental health problems."
+    - id: '1.g'
+      node_type: Statement
+      text: "Use expert knowledge and skills to inform clinical-reasoning, ensuring the synthesis of information from multiple sources to inform evidence-based clinical judgements and diagnoses and including consideration of differential diagnosis and risks relating to diagnostic overshadowing."
+    - id: '1.h'
+      node_type: Statement
+      text: "Effectively communicate highly sensitive information and plan for postdiagnostic follow up, recognising the needs of families and carers who are providing care and support for people with a learning disability."
+    - id: '1.i'
+      node_type: Statement
+      text: "Demonstrate clinical leadership in collaborative clinical assessment, formulation and diagnosis."
+  - id: '2'
+    node_type: Capability
+    text: "The advanced practitioner will lead inclusive communication approaches to maximise communication with people with a learning disability, their families, significant others and professionals across complex systems of care."
+    source_notes:
+    - "Mapped to CfAP Multi-professional framework: 1.3, 1.5, 1.9, 2.5"
+    children:
+    - id: '2.a'
+      node_type: Statement
+      text: "Within the sphere of their practice and role, broaden their knowledge, understanding and capability regarding the communication needs of people with a learning disability, or, where communication is an existing area of clinical expertise, further enhance their specialist knowledge and clinical expertise, providing clinical leadership and consultation to others."
+    - id: '2.b'
+      node_type: Statement
+      text: "Demonstrate a critical understanding of inclusive communication approaches to ensure the voice of people with a learning disability, their families and significant others are included and advocated for when making decisions, planning care and making positive changes."
+    - id: '2.c'
+      node_type: Statement
+      text: "Communicate effectively with families, carers and colleagues using a variety of media (e.g. verbal, written and digital) whilst keeping the service user at the centre of care."
+    - id: '2.d'
+      node_type: Statement
+      text: "Communicate with families, carers and colleagues in ways that build and sustain relationships, including by seeking, gathering and sharing information appropriately, efficiently and effectively to expedite and integrate individuals' care."
+    - id: '2.e'
+      node_type: Statement
+      text: "Act on professional judgement about when and how to seek help with communication, demonstrating critical reflection on and self-awareness of their own practice."
+    - id: '2.f'
+      node_type: Statement
+      text: "Critically reflect, evaluate and modify communication with people with a learning disability to support their emotional wellbeing and autonomy."
+    - id: '2.g'
+      node_type: Statement
+      text: "Pro-actively advocate for adoption of the Accessible Information Standard for health and social care organisations, including requirements for policy, procedures, human behaviour and, where applicable, electronic systems"
+    - id: '2.h'
+      node_type: Statement
+      text: "Facilitate and support the effective communication of highly sensitive information and utilise appropriate communication approaches to support shared decision-making in complex situations."
+    - id: '2.i'
+      node_type: Statement
+      text: "Advocate for practices to reduce health inequalities, risks and diagnostic overshadowing and to improve both physical and mental health through enabling reasonable adjustments."
+    - id: '2.j'
+      node_type: Statement
+      text: "Lead new practice and service redesign solutions, role modelling co-production and using clinical expertise to meaningfully involve a diverse range of people with a learning disability to have a voice in service design and delivery, in accordance with national agendas and policies."
+    - id: '2.k'
+      node_type: Statement
+      text: "Demonstrate effective and inclusive communication skills assuring the voice of individuals, carers families and professionals are advocated."
+    - id: '2.l'
+      node_type: Statement
+      text: "Demonstrate critical awareness of the influences of self-advocacy and practice based leadership and apply them safely and effectively to this field of practice."
+    - id: '2.m'
+      node_type: Statement
+      text: "Facilitate a culture of co-production and involve people with complex communication needs to have a voice in local and national agendas and policies."
+  - id: '3'
+    node_type: Capability
+    text: "The advanced practitioner will clinically lead personalised care and support for people with a learning disability."
+    source_notes:
+    - "Mapped to CfAP Multi-professional framework: 1.7, 1.8, 1.9"
+    children:
+    - id: '3.a'
+      node_type: Statement
+      text: "Synthesise the theory and principles that underpin personalised care and support for people with a learning disability, including principles of shared decision-making, health literacy and activation, and apply these principles in practice."
+    - id: '3.b'
+      node_type: Statement
+      text: "Understand and appraise historical and current understanding of learning disability, including people with a learning disability who are autistic, applying cognitive, biopsycho-social and neurodiversity theories."
+    - id: '3.c'
+      node_type: Statement
+      text: "Critically evaluate the role of positive risk-taking and duty of care in enabling personalised care and support."
+    - id: '3.d'
+      node_type: Statement
+      text: "Lead the development and implementation of systems for goal-based, personalised outcome planning, implementing plans and monitoring the impact of these."
+    - id: '3.e'
+      node_type: Statement
+      text: "Proactively initiate person-centred thinking, planning and co-production in the management and development of services, enabling people to maximise their empowerment within the limits of their capability in complex systems and changing support."
+    - id: '3.f'
+      node_type: Statement
+      text: "Enable healthy psychological environments for people with a learning disability by giving support and advice to carers and families."
+    - id: '3.g'
+      node_type: Statement
+      text: "Explore and appraise the impact that caring for individuals with a learning disability in the family may have on relationships and family members' own wellbeing (including any psychological and/or socio-economic impact)."
+    - id: '3.h'
+      node_type: Statement
+      text: "Evaluate how family and carer relationships and support needs may change over the life course and during periods of transition and work with individuals and others to identify positive and negative aspects of a change."
+    - id: '3.i'
+      node_type: Statement
+      text: " Understand, implement and educate others regarding legislation relevant to families' and carers' rights and act as a source of further information for families and carers around legal issues (e.g. lasting power of attorney, mental capacity and liberty protection safeguards)."
+    - id: '3.j'
+      node_type: Statement
+      text: "Utilise and support the implementation of relevant legislation and guidance for consent and shared decision-making (e.g. mental capacity legislation and NICE guidance)."
+    - id: '3.k'
+      node_type: Statement
+      text: "Critically review their professional role in maintaining and ensuring the wellbeing and independence of people with a learning disability."
+    - id: '3.l'
+      node_type: Statement
+      text: "Apply the evidence, theories and policy drivers that underpin decision-making and judgement in practice."
+    - id: '3.m'
+      node_type: Statement
+      text: "Demonstrate the ability to provide innovative approaches to person-centred planning for people with a learning disability and additional complex needs."
+    - id: '3.n'
+      node_type: Statement
+      text: "Critically examine holistic issues and approaches influencing personalised care and support for people with protected characteristics."
+- id: 'B'
+  node_type: Domain
+  text: "Health and wellbeing"
+  children:
+  - id: '4'
+    node_type: Capability
+    text: "The advanced practitioner will act as a powerful advocate for people with a learning disability, ensuring health equality and reasonable adjustments are made across the health and social care system, to meet people's needs and reduce health and social care inequalities, maximising health and wellbeing."
+    source_notes:
+    - "Mapped to CfAP Multi-professional framework: 1.5, 1.7, 1.8"
+    children:
+    - id: '4.a'
+      node_type: Statement
+      text: "Recognise the biological, psychological and social impact of common health conditions and lead an appropriate response, including for: a. Life-limiting conditions. b. Long-term conditions. c. Sensory impairment."
+    - id: '4.b'
+      node_type: Statement
+      text: "Critically appraise the social determinants of health and conditions that affect mortality and cause premature death within the context of a changing demography."
+    - id: '4.c'
+      node_type: Statement
+      text: "Identify through advanced knowledge and practice, health conditions that are more likely to be experienced by people with profound and multiple learning disabilities (PMLD) and the implications of these for on-going health checks, person-centred planning and supporting the capabilities of carers to monitor individuals' health and wellbeing needs on a day-to-day basis."
+    - id: '4.d'
+      node_type: Statement
+      text: "Demonstrate a critical understanding of the signs, symptoms, prevalence and potential impact on the lives of people with a learning disability of mental health conditions and concurrent presentations, including consideration through expert knowledge and practice of potential differential diagnosis and diagnostic overshadowing."
+    - id: '4.e'
+      node_type: Statement
+      text: "Conduct a comprehensive assessment, with the ability to recognise when there is a need to make a referral either to specialist psychological services (e.g. to psychiatry, psychology or arts psychotherapies) for complex mental health issues, or to a therapeutic community group."
+    - id: '4.f'
+      node_type: Statement
+      text: "Critically understand the importance of activity (e.g. daily living skills, education, paid and unpaid work and leisure) that has meaning and purpose to individuals with a learning disability and may provide social engagement as a 'protective factor' to maintain their positive mental health."
+    - id: '4.g'
+      node_type: Statement
+      text: "Critically appraise how the physical and social environment impacts individuals' physical, psychological and social wellbeing and participation, including in home, housing, community, education and work settings"
+    - id: '4.h'
+      node_type: Statement
+      text: "Support and facilitate people with a learning disability to access opportunities for appropriate activities that have interest for them, including through social prescribing where appropriate."
+    - id: '4.i'
+      node_type: Statement
+      text: "Ensure that others (e.g. family members, care/support staff, other members of the multidisciplinary team and those in mainstream health and social care services) recognise the value and importance of therapeutic activities and positive risk-taking and decision-making and that this is reflected in people's care plans."
+    - id: '4.j'
+      node_type: Statement
+      text: "Use advanced clinical skills to respond to and work in partnership with people with a learning disability and others (including family members, other members of the multidisciplinary team and those in health, education and social care services) to maximise the outcomes of interventions."
+    - id: '4.k'
+      node_type: Statement
+      text: "Analyse why mental or physical health conditions may be overlooked in people with a learning disability (e.g. due to complex or atypical presentations and/or diagnostic overshadowing)."
+    - id: '4.l'
+      node_type: Statement
+      text: "Demonstrate critical understanding of pharmacology related to this field of practice, including strategies related to appropriate prescribing, de-prescribing, and polypharmacy across the lifespan, and implement current guidelines and principles aimed at stopping the over-medication of people with a learning disability."
+    - id: '4.m'
+      node_type: Statement
+      text: "Advocate for reasonable adjustments and processes to support people with a learning disability to access healthcare services."
+    - id: '4.n'
+      node_type: Statement
+      text: "Promote and apply the Accessible Information Standard for health and social care organisations, including requirements for policy, procedures, human behaviour and, where applicable, electronic systems."
+    - id: '4.o'
+      node_type: Statement
+      text: "Influence commissioning and lead care across organisations and pathways."
+    - id: '4.p'
+      node_type: Statement
+      text: "Critically appraise the outcome of relevant research and use current evidence to underpin own practice and to inform that of others."
+    - id: '4.q'
+      node_type: Statement
+      text: "Use initiative in decision-making and generate transformative solutions through the synthesis of ideas and information as a result of critical reflexivity."
+    - id: '4.r'
+      node_type: Statement
+      text: "Evidence holistic, in-depth knowledge, skills and behaviours to maximise the health and wellbeing of people with additional complex needs or common comorbidities."
+  - id: '5'
+    node_type: Capability
+    text: "The advanced practitioner will apply advance knowledge and clinical expertise to meet the nutrition and hydration needs of people with a learning disability"
+    source_notes:
+    - "Mapped to CfAP Multi-professional framework: 1.10, 1.11, 2.7"
+    children:
+    - id: '5.a'
+      node_type: Statement
+      text: "Within the sphere of their practice and role, broaden their knowledge, understanding and capability regarding the nutrition and hydration needs of people with a learning disability, or, where nutrition and hydration is an area of clinical expertise, further enhance their specialist knowledge and clinical expertise and provide clinical leadership and consultation to others."
+    - id: '5.b'
+      node_type: Statement
+      text: "Apply clinical expertise and decision-making to inform and advocate for a balance between a nutritionally balanced diet and providing the opportunity for people with a learning disability to enjoy safely the food and drink of their choice."
+    - id: '5.c'
+      node_type: Statement
+      text: "Critically evaluate how to improve the provision of nutrition and hydration through monitoring food and drink intake using appropriate tools and evaluating the factors that influence a positive mealtime experience."
+    - id: '5.d'
+      node_type: Statement
+      text: "Apply expertise and skills to monitor for other health conditions that may result from poor nutrition and hydration (e.g. skin integrity and diabetes)."
+    - id: '5.e'
+      node_type: Statement
+      text: "Involve individuals’ family and/or care staff where there may be conflict or differences of opinion if individuals lack capacity to work with professionals to develop their own management approaches."
+    - id: '5.f'
+      node_type: Statement
+      text: "Recognise that adults with a learning disability are a high-risk group for deaths from respiratory problems and ensure robust clinical assessment and care planning to avoid these risks."
+    - id: '5.g'
+      node_type: Statement
+      text: "Critically appraise the risk factors for people with a learning disability that may place them at higher risk of malnutrition; being obese and developing morbid obesity at an earlier age; being constipated; dysphagia and gastrointestinal disorders; and comorbidities associated with these conditions, and proactively manage these risks and provide interventions to prevent avoidable deterioration."
+    - id: '5.h'
+      node_type: Statement
+      text: "Use expertise to develop and deliver person-centred nutritional care plans with people with a learning disability, taking account of individual, environmental and functional skill factors, assessing individuals' capacity and any support needed, and working with the multi-disciplinary team to consider holistic assessment and guidance."
+    - id: '5.i'
+      node_type: Statement
+      text: "Be aware of the risk of re-feeding syndrome in people who are severely underweight and who have had a period of acute starvation, identifying appropriate referrals to promote safe re-feeding."
+    - id: '5.j'
+      node_type: Statement
+      text: "Actively identify groups of people with a learning disability who are at a particularly high risk for dysphagia and, within their sphere of practice, screen for the risk of choking and dysphagia; promote approaches to reduce the risks of choking; and ensure appropriate referral to a dysphagia-trained practitioner for specialist assessment and clinical guidelines."
+    - id: '5.k'
+      node_type: Statement
+      text: "Critically evaluate how other health conditions have been associated with dysphagia (e.g. under-nutrition, weight loss, urinary tract infections, headaches, constipation, oesophagitis and reduced ability to fight infections)."
+    - id: '5.l'
+      node_type: Statement
+      text: "Work with the multi-professional team and clinical experts to recognise when individuals' dysphagia is severe and work with the multi-professional team to evaluate other methods of getting adequate nutrition and hydration, such as enteral feeding."
+    - id: '5.m'
+      node_type: Statement
+      text: "Evaluate decisions regarding methods of getting adequate nutrition and hydration with individuals themselves and, if possible, with their family, care team and GP as well as with other healthcare professionals (e.g. dietitians, dysphagia-trained nurses, occupational therapists, physiotherapists, speech and language therapists)."
+    - id: '5.n'
+      node_type: Statement
+      text: "Support others in the learning disability workforce to recognise causes of dysphagia and those at risk of dysphagia through work-based and interprofessional learning, including through the application of agreed standards (within scope of practice), to ensure safety and competency in the workforce."
+    - id: '5.o'
+      node_type: Statement
+      text: "Understand the importance of good oral hygiene, including the impact of gum disease, mouth ulcers, broken teeth, tooth decay, a dental abscess and missing teeth on eating, drinking and respiratory health and wellbeing."
+    - id: '5.p'
+      node_type: Statement
+      text: "Work collaboratively with dieticians, psychologists and sensory specialists to manage disordered or restricted eating in adults with a learning disability."
+  - id: '6'
+    node_type: Capability
+    text: "The advanced practitioner will demonstrate advance knowledge and clinical expertise in positive behaviour support."
+    source_notes:
+    - "Mapped to CfAP Multi-professional framework: 1.4, 1.6, 1.8, 1.10"
+    children:
+    - id: '6.a'
+      node_type: Statement
+      text: "Develop and implement inclusive, co-produced, multi-element positive behaviour support plans with people with a learning disability, their families and carers, the multidisciplinary team and other agencies, as appropriate."
+    - id: '6.b'
+      node_type: Statement
+      text: "Actively support and co-produce strategies to enable appropriate and personcentred functional risk assessment."
+    - id: '6.c'
+      node_type: Statement
+      text: "Synthesise appropriate evidence to formulate a comprehensive functional assessment of individuals' needs relating to behaviours described as 'challenging'."
+    - id: '6.d'
+      node_type: Statement
+      text: "Construct evidenced-based, functionally-equivalent support strategies to meet individuals' needs."
+    - id: '6.e'
+      node_type: Statement
+      text: "Develop multi-element, constructionally-based and individualised interventions to support pro-social skills development."
+    - id: '6.f'
+      node_type: Statement
+      text: "Devise comprehensive positive behaviour support-based interventions and strategies that enable safe, evidence-based and least restrictive/reactive strategies, where required."
+    - id: '6.g'
+      node_type: Statement
+      text: "Advocate for and teach support skills that facilitate person-centred positive behaviour support plans."
+    - id: '6.h'
+      node_type: Statement
+      text: "Provide clinical support and supervision to colleagues and families to identify and ameliorate mediator issues."
+    - id: '6.i'
+      node_type: Statement
+      text: "Provide comprehensive monitoring and evaluation of positive behaviour support (PBS) plans to support quality of life measures."
+    - id: '6.j'
+      node_type: Statement
+      text: "Be cognisant of appropriate individualised positive risk-taking strategies and their implications."
+    - id: '6.k'
+      node_type: Statement
+      text: "Critically reflect on their involvement in the development and effectiveness of coproduced, multi-element positive behaviour support plans."
+    - id: '6.l'
+      node_type: Statement
+      text: "Demonstrate the ability to provide effective, safe complex care management, including assessment and management approaches that are informed by local and national agendas and best evidence."
+  - id: '7'
+    node_type: Capability
+    text: "The advance practitioner will work with palliative care specialists to clinically lead high-quality, dignified care for people with a learning disability who have been identified as at end of life."
+    source_notes:
+    - "Mapped to CfAP Multi-professional framework: 1.3, 1.4, 1.5, 1.7, 2.7"
+    children:
+    - id: '7.a'
+      node_type: Statement
+      text: "Proactively work with people with a learning disability and their families and carers to co-ordinate complex planning across services, to develop a personcentred end of life care plan that balances their treatment with care and support needs and preferences."
+    - id: '7.b'
+      node_type: Statement
+      text: "Critically appraise the biological, psychological and sociological aspects associated with end of life/palliative care planning and apply them appropriately to care planning for individuals."
+    - id: '7.c'
+      node_type: Statement
+      text: "Demonstrate a comprehensive understanding of the processes involved in deciding when individuals with a learning disability are deemed to be at end of life and the actions needed."
+    - id: '7.d'
+      node_type: Statement
+      text: "Use specialist knowledge and skills and educate others to identify acute onset illness and deterioration in people with a learning disability and develop care plans to support individuals' access to health services."
+    - id: '7.e'
+      node_type: Statement
+      text: "Synthesise guidance, risks and benefits, and ethical considerations associated with individuals' food- and drink-related needs, including those relating to clinically-assisted nutrition and hydration."
+    - id: '7.f'
+      node_type: Statement
+      text: "Understand referral criteria and initiate processes for referral to specialist services to meet the needs of people with a learning disability and those who are important to them."
+    - id: '7.g'
+      node_type: Statement
+      text: "Critically evaluate ways to overcome the potential barriers that people with a learning disability may face in accessing end-of-life care."
+    - id: '7.h'
+      node_type: Statement
+      text: "Advocate for reviews of death of people with a learning disability and know which organisations should be contacted following the death of individuals with a learning disability."
+    - id: '7.i'
+      node_type: Statement
+      text: "Contribute to the development of practices and services that meet the end-oflife needs of people with a learning disability, ensuring that all agencies are committed to providing urgent and timely interventions that can save lives."
+    - id: '7.j'
+      node_type: Statement
+      text: "Ensure the delivery of care for people with a learning disability at end of life that is person-centred and takes into consideration diversity and cultural needs, alongside professional, ethical and legal perspectives."
+    - id: '7.k'
+      node_type: Statement
+      text: "Demonstrate a critical understanding of the professional, ethical and legal perspectives relating to working with people with a learning disability at the end of life, incorporating sensitivity to diversity and cultural issues."
+  - id: '8'
+    node_type: Capability
+    text: "The advanced practitioner will be able to critically appraise research and practice to ensure that the sensory needs of people with a learning disability are met, including sensory impairment and sensory processing."
+    source_notes:
+    - "Mapped to CfAP Multi-professional framework: 1.7, 1.11"
+    children:
+    - id: '8.a'
+      node_type: Statement
+      text: " Demonstrate a comprehensive understanding of the implications of sensory impairments on the lives of people with a learning disability, including those with PMLD."
+    - id: '8.b'
+      node_type: Statement
+      text: "Synthesise and appraise the neuroscience and evidence base underpinning theories relating to the processing and integration of sensory stimuli that impact on the lives of people with a learning disability."
+    - id: '8.c'
+      node_type: Statement
+      text: "Promote understanding of the possible sensory processing differences of people with a learning disability and the impact of appropriate and inappropriate environments on their ability to participate in daily activities."
+    - id: '8.d'
+      node_type: Statement
+      text: "Assess, and evidence the need for interventions for the development of sensory integration."
+    - id: '8.e'
+      node_type: Statement
+      text: "Select and plan interventions for the development of sensory integration, including the selection of appropriate outcome measures."
+    - id: '8.f'
+      node_type: Statement
+      text: "Advocate for the provision of appropriate sensory adaptation equipment (e.g. noisecancelling headphones, suitable lighting, accessibility settings on technology), in line with individuals' requirements and to support their access to and/or engagement in desired activities."
+    - id: '8.g'
+      node_type: Statement
+      text: "Lead the development of organisational policies and plans that prioritise sensory needs and address environmental challenges."
+    - id: '8.h'
+      node_type: Statement
+      text: "Promote reasonable adjustments and the legal requirement for organisations to ensure equality of access for people with a special requirement, including by critically appraising policies and procedures."
+  - id: '9'
+    node_type: Capability
+    text: "The advanced practitioner will apply clinical knowledge and expertise on movement and posture to ensure that the health and wellbeing needs of people who have complex physical disabilities, reduced mobility and deteriorating health are met."
+    source_notes:
+    - "Mapped to CfAP Multi-professional framework: 1.6, 1.7, 1.8"
+    children:
+    - id: '9.a'
+      node_type: Statement
+      text: "Understand the impact of complex physical disability on individuals' health, care, social interaction, engagement and quality of life, as well as the lives of their network of care and support." 
+    - id: '9.b'
+      node_type: Statement
+      text: "Understand that poor posture can have severe and life-threatening complications and implement creative solutions to meet the postural needs of people with complex presentations, including for people with profound learning disabilities who are unable to change their own body position."
+    - id: '9.c'
+      node_type: Statement
+      text: "Anticipate and promote the need for 24-hour postural management to reduce the risk of secondary complications associated with severe physical disability that are linked to morbidity and mortality (e.g. pain, pressure sores, spinal deformity, joint contractures and respiratory infection)."
+    - id: '9.d'
+      node_type: Statement
+      text: "Within sphere of practice and role, broaden knowledge, understanding and capability regarding 24-hour postural management of people with a learning disability."
+    - id: '9.e'
+      node_type: Statement
+      text: "Critically evaluate how an agreed 24-hour postural management plan, including positioning equipment, medical management and therapeutic activities, improves health outcomes, care, social interaction, engagement and quality of life."
+    - id: '9.f'
+      node_type: Statement
+      text: "Understand the prevalence, aetiology and impact of respiratory disorders in people with a learning disability and that people with conditions such as PMLD and severe cerebral palsy are at high risk of respiratory problems resulting in increased access to healthcare and premature death."
+    - id: '9.g'
+      node_type: Statement
+      text: "Within sphere of practice, identify, anticipate and promote multi-disciplinary respiratory management for people with a learning disability, including access to community and specialist level respiratory services."
+    - id: '9.h'
+      node_type: Statement
+      text: "Understand the prevalence, aetiology and impact of mobility problems and falls in people with a learning disability and the consequences of these on individuals' health outcomes, social engagement and quality of life."
+    - id: '9.i'
+      node_type: Statement
+      text: "Anticipate and promote the need to reduce falls and mobility problems in people with a learning disability, including implementing strategies to manage any immediate risk such as medical causes, environmental hazards and social/care contributory factors."
+    - id: '9.j'
+      node_type: Statement
+      text: "Within sphere of practice and role, broaden knowledge, understanding and capability of a multi-disciplinary multi-factorial falls assessment, prevention and intervention approach for people with a learning disability, including through the promotion of physical activity, strength and balance exercises, environmental assessments, medication reviews, promotion of bone health and attention to low vision and visual processing difficulties."
+    - id: '9.k'
+      node_type: Statement
+      text: "Implement and evaluate the importance of taking a positive risk management approach to mobility and falls management to ensure that the needs of adults with a learning disability are met in a person-centred manner and in ways that maximise their personal choice and quality of life, and take an evidence-based approach to falls intervention."
+    - id: '9.l'
+      node_type: Statement
+      text: "Actively promote the importance for people with a learning disability to maintain good physical health through exercise, activities, movement and postural management."
+  - id: '10'
+    node_type: Capability
+    text: "The advanced practitioner will demonstrate a comprehensive knowledge and understanding of epilepsy, to inform assessment, diagnosis and care for people with a learning disability and epilepsy."
+    source_notes:
+    - "Mapped to CfAP Multi-professional framework: 1.4, 1.6, 1.8"
+    children:
+    - id: '10.a'
+      node_type: Statement
+      text: "Synthesise current national guidelines relating to the assessment and treatment of epilepsy."
+    - id: '10.b'
+      node_type: Statement
+      text: "Demonstrate a comprehensive understanding of the classification of seizures and the ability to differentiate, through appropriate use of history taking and assessment tools, the type of seizure, syndrome and nonseizure activity."
+    - id: '10.c'
+      node_type: Statement
+      text: "Synthesise data to create a formulation for individuals with a learning disability and epilepsy, and devise appropriate person-centred care and support plans."
+    - id: '10.d'
+      node_type: Statement
+      text: "Evaluate the complexity and co-morbidity of epilepsy in people with a learning disability in order to more effectively manage individuals' condition to improve their quality of life and enhance the support provided to them, and to reduce health inequalities."
+    - id: '10.e'
+      node_type: Statement
+      text: "Use clinical expertise, decision-making and professional judgement to assess and manage risk relating to epilepsy in people with a learning disability."
+    - id: '10.f'
+      node_type: Statement
+      text: "Initiate, monitor and evaluate epilepsy treatment, including knowing the specific idiosyncratic effects in people with a learning disability and the need to take account of potential co-morbidities such as dysphagia."
+    - id: '10.g'
+      node_type: Statement
+      text: "Proactively develop and disseminate health promotion advice to people with a learning disability, their families and carers in relation to epilepsy in accordance with contemporary legislation and guidelines."
+    - id: '10.h'
+      node_type: Statement
+      text: "Apply comprehensive assessment to identify potential differential diagnosis of nonepileptic and dissociative seizures, ensuring appropriate referral for specialist assessment and interventions."
+- id: 'C'
+  node_type: Domain
+  text: "Personalised care and support"
+  children:
+  - id: '11'
+    node_type: Capability
+    text: "The advanced practitioner will work across health and social care systems to ensure the wellbeing and independence of people with a learning disability is upheld through person-centred, personalised care."
+    source_notes:
+    - "Mapped to CfAP Multi-professional framework: 1.4, 1.5, 1.7"
+    children:
+    - id: '11.a'
+      node_type: Statement
+      text: "Advocate across health and social care systems for the personalisation of care and support for people with a learning disability."
+    - id: '11.b'
+      node_type: Statement
+      text: "Actively assist people with a learning disability to develop support plans to meet their identified needs, interests and right to make choices and enable them to realise and implement these plans."
+    - id: '11.c'
+      node_type: Statement
+      text: "Evaluate the value of a broad range of assistive living technologies (new and emerging) in developing support plans for people with a learning disability."
+    - id: '11.d'
+      node_type: Statement
+      text: "Synthesise the theories and principles that underpin outcome-based practice for people with a learning disability."
+    - id: '11.e'
+      node_type: Statement
+      text: "Promote and contribute to the development of practices and services that meet the individual needs of people with a learning disability."
+  - id: '12'
+    node_type: Capability
+    text: "The advanced practitioner will understand the impact of relationships, sexuality and sexual health for people with a learning disability and how these impact upon individuals' wellbeing."
+    source_notes:
+    - "Mapped to CfAP Multi-professional framework: 1.4, 1.5"
+    children:
+    - id: '12.a'
+      node_type: Statement
+      text: "Evaluate factors that can influence the process of a relationship and work with people with a learning disability to review and evaluate the support they need to maintain and develop relationships if they wish to do so."
+    - id: '12.b'
+      node_type: Statement
+      text: "Appraise the relevance of relationship theories to learning disability care and support."
+    - id: '12.c'
+      node_type: Statement
+      text: "Appraise the impact of relationships and social networks on wellbeing and self-esteem and actively promote and support people with a learning disability to participate in their local community or social networks."
+    - id: '12.d'
+      node_type: Statement
+      text: "Identify and evaluate issues of sexual expression and sexual health for people with a learning disability and how they can be supported."
+    - id: '12.e'
+      node_type: Statement
+      text: "Evaluate the impact of social and family contextual factors on the sexual and sexual health needs of people with a learning disability."
+    - id: '12.f'
+      node_type: Statement
+      text: "Synthesise relevant legislation influencing the support of sexuality and sexual health for people with a learning disability."
+    - id: '12.g'
+      node_type: Statement
+      text: "Appraise the potential for people with a learning disability to be at risk either of entering the criminal justice system due to perceived inappropriate sexual behaviour or of being a victim of sexual abuse and exploitation."
+    - id: '12.h'
+      node_type: Statement
+      text: "Critically examine influencing factors and approaches relating to relationships, exploration of sexuality, sexual health and wellbeing."
+  - id: '13'
+    node_type: Capability
+    text: "The advanced practitioner will have a good knowledge and understanding of life transitions for the health and wellbeing of people with a learning disability, throughout their lives and how to support people with a learning disability, their families, significant others and health and social care professionals as they navigate through life stages."
+    source_notes:
+    - "Mapped to CfAP Multi-professional framework: 1.4, 1.6, 1.7"
+    children:
+    - id: '13.a'
+      node_type: Statement
+      text: "Appraise types of change that may occur in the life stages of individuals with a learning disability and how their needs and abilities may change over time."
+    - id: '13.b'
+      node_type: Statement
+      text: "Analyse factors that may make change a positive or negative experience and approaches likely to enhance individuals’ capacity to manage and experience change positively."
+    - id: '13.c'
+      node_type: Statement
+      text: "Support people to express preferences and anxieties when going through change and adapt support methods to take account of their preferences or anxieties."
+    - id: '13.d'
+      node_type: Statement
+      text: "Recognise and promote the value of early intervention on the lives of children and young people with a learning disability and their families and lead a coordinated approach to intervention across a range of services (e.g. health, education and social services)."
+    - id: '13.e'
+      node_type: Statement
+      text: "Support young people with a learning disability and their families and carers to reflect on their transition into adulthood."
+    - id: '13.f'
+      node_type: Statement
+      text: "Evaluate the impact of age-related changes on older people with a learning disability (including dementia, frailty and falls) and how these changes may affect individuals."
+    - id: '13.g'
+      node_type: Statement
+      text: "Evaluate the support provided during a period of change, working with individuals and others to identify positive and negative aspects of a change and to seek additional expertise and advice, if required."
+    - id: '13.h'
+      node_type: Statement
+      text: "Provide accessible information, advice and support that is tailored to individuals' communication needs."
+    - id: '13.i'
+      node_type: Statement
+      text: "Critically examine the biological, psychological and sociological factors relating to the life stages, including transition to adulthood and older adulthood, and apply these to the field of practice."
+    - id: '13.j'
+      node_type: Statement
+      text: "Support social models of disability in the context of service provision across health and social care systems and the wider community."
+- id: 'D'
+  node_type: Domain
+  text: "Risk, legislation and safeguarding"
+  children:
+  - id: '14'
+    node_type: Capability
+    text: "The advanced practitioner will clinically lead care, ensuring highquality and best practice standards are met in the application of law, ethics and safeguarding for people with a learning disability."
+    source_notes:
+    - "Mapped to CfAP Multi-professional framework: 1.8, 2.10, 2.11"
+    children:
+    - id: '14.a'
+      node_type: Statement
+      text: "Appraise the legislation, regulations and policies that underpin the protection of people with a learning disability, including key legislation relevant to mental capacity, deprivation of liberty, equality and human rights."
+    - id: '14.b'
+      node_type: Statement
+      text: "Demonstrate a comprehensive understanding of law, ethics and safeguarding, including equality, diversity and inclusion."
+    - id: '14.c'
+      node_type: Statement
+      text: "Analyse the implications for practice of key legal and ethical issues, including how different areas of legislation may interact and impact."
+    - id: '14.d'
+      node_type: Statement
+      text: "Evaluate the options available when informed consent may be compromised."
+    - id: '14.e'
+      node_type: Statement
+      text: "Lead service provision that protects people with a learning disability at risk of harm or abuse, including monitoring and evaluating systems, processes and practice."
+    - id: '14.f'
+      node_type: Statement
+      text: "Demonstrate a comprehensive understanding of the roles and responsibilities of the different agencies involved in investigating allegations of harm or abuse."
+    - id: '14.g'
+      node_type: Statement
+      text: "Manage inter-agency, joint or integrated working to protect people with a learning disability who are at risk of harm or abuse, including through the appropriate sharing of safeguarding information with the relevant agencies."
+    - id: '14.h'
+      node_type: Statement
+      text: "Critically evaluate the role of self and others in supporting people with a learning disability who have experienced harm or abuse."
+    - id: '14.i'
+      node_type: Statement
+      text: "Actively challenge others who are not behaving in an ethical way."
+    - id: '14.j'
+      node_type: Statement
+      text: "Critically review rights-based approaches, ensuring consideration is given to specific legal, ethical and safeguarding frameworks when planning person centred care."
+    - id: '14.k'
+      node_type: Statement
+      text: "Undertake a systematic review of inter-agency, trans-disciplinary models of working."
+    - id: '14.l'
+      node_type: Statement
+      text: "Critically analyse and apply methods for conflict resolution and solution focused problemsolving in inter-agency, integrated and joint working within a multi-professional setting."
+  - id: '15'
+    node_type: Capability
+    text: "The advanced practitioner will clinically lead the delivery of services, ensuring equality, diversity and inclusion is maintained."
+    source_notes:
+    - "Mapped to CfAP Multi-professional framework: 1.10, 2.10, 2.11"
+    children:
+    - id: '15.a'
+      node_type: Statement
+      text: "Understand the prevalence of learning disabilities and the importance of equal access to learning disability assessments for people from diverse communities."
+    - id: '15.b'
+      node_type: Statement
+      text: "Appraise the legislation, regulations and policies that underpin equality, diversity and human rights."
+    - id: '15.c'
+      node_type: Statement
+      text: "Analyse the impact that discrimination, stigma and unconscious bias may have on the life of people with a learning disability, their family and carers, including those for whom a number of protected characteristics may be applicable."
+    - id: '15.d'
+      node_type: Statement
+      text: "Lead practice and an organisational culture that values and respects equality, inclusion and the diversity of people with a learning disability."
+    - id: '15.e'
+      node_type: Statement
+      text: "Develop, promote and co-produce systems and processes that promote diversity, equality and inclusion."
+    - id: '15.f'
+      node_type: Statement
+      text: "Recognise when own or others’ behaviour undermines equality, diversity and human rights and take rectifying action."
+    - id: '15.g'
+      node_type: Statement
+      text: "Critically appraise the approaches that enable advanced practice to maintain and support equality, diversity and inclusion in the delivery of person-centred care."
+  - id: '16'
+    node_type: Competency
+    text: "The advanced practitioner will clinically lead on the provision of high-quality risk assessment and risk management plans to enable positive risktaking to maximise the health and wellbeing of people with a learning disability."
+    source_notes:
+    - "Mapped to CfAP Multi-professional framework: 1.3"
+    children:
+    - id: '16.a'
+      node_type: Statement
+      text: "Appraise ways in which risk is an integral part of everyday life."
+    - id: '16.b'
+      node_type: Statement
+      text: "Evaluate the links between risk-taking and responsibility, empowerment and social inclusion, considering the needs and abilities of people with a learning disability."
+    - id: '16.c'
+      node_type: Statement
+      text: "Promote the importance of a positive, person-centred approach to risk assessment and how to apply the principles and methods of a person-centred approach to the process of risk assessment."
+    - id: '16.d'
+      node_type: Statement
+      text: "Evaluate how a service-focused approach to risk assessment would differ from a personcentred approach."
+    - id: '16.e'
+      node_type: Statement
+      text: "Synthesise and explain the legal and policy framework underpinning individuals' right to make decisions and take risks."
+    - id: '16.f'
+      node_type: Statement
+      text: "Ensure that people with a learning disability are facilitated to balance their choices with their own and others’ health, safety and wellbeing in light of their mental capacity."
+    - id: '16.g'
+      node_type: Statement
+      text: "Demonstrate a critical self-awareness of how one’s values, belief systems and experiences may affect working practice when supporting people to take risks."
+    - id: '16.h'
+      node_type: Statement
+      text: "Critically analyse positive risk-taking as an integral part of everyday life."
+    - id: '16.i'
+      node_type: Statement
+      text: "Apply the evidence, theories and policy drivers that underpin decision-making and judgement in practice."
+    - id: '16.j'
+      node_type: Statement
+      text: "Demonstrate the ability to carry out complex risk assessment and management, being cognisant of positive risk-taking, and associated frameworks to support autonomous, professional decision-making and ensure accurate recording/documentation."
+- id: 'E'
+  node_type: Domain
+  text: "Leadership and management, education and research"
+  source_notes:
+  - "This domain outlines the advanced practice capabilities specific to learning disabilities relating that relate to leadership and management, education and research. They reflect and build on the generic capabilities for these three pillars that are set out in the Multi-professional framework for advanced clinical practice in England."
+  children:
+  - id: '17'
+    node_type: Capability
+    text: "The advanced practitioner will provide clinical leadership and manage services and teams to ensure the delivery of high-quality, effective care to people with a learning disability."
+    source_notes:
+    - "Mapped to CfAP Multi-professional framework: 2.1 to 2.11"
+    children:
+    - id: '17.a'
+      node_type: Statement
+      text: "Evaluate key drivers and policies that influence national learning disability and autism strategy and service development and analyse how these can be used to improve service delivery."
+    - id: '17.b'
+      node_type: Statement
+      text: "Advocate for the rights of people with a learning disability for reasonable adjustments to meet their needs in the planning and development of services."
+    - id: '17.c'
+      node_type: Statement
+      text: "Promote a culture where needs and risks are balanced with health and safety practice in learning disability care and support."
+    - id: '17.d'
+      node_type: Statement
+      text: "Actively seek feedback and involvement from people with a learning disability, families, communities and colleagues in the co-production of service improvements."
+    - id: '17.e'
+      node_type: Statement
+      text: "Continually develop practice in response to changing population health needs, engaging in horizon scanning for future developments to reduce health inequalities for people with a learning disability (e.g. the impacts of genomics, new treatments and changing social challenges)."
+    - id: '17.f'
+      node_type: Statement
+      text: "Develop relationships with service commissioners to advocate for the health and social care needs of people with a learning disability and to develop the capacity and capability of integrated care systems to meet these needs."
+    - id: '17.g'
+      node_type: Statement
+      text: "Demonstrate receptiveness to challenge and preparedness to constructively challenge others, escalating concerns that affect people with a learning disability, families, communities and colleagues' safety and wellbeing when necessary."
+    - id: '17.h'
+      node_type: Statement
+      text: "Demonstrate critical awareness of the influences of self-advocacy and practice-based leadership and apply these safely and effectively to this field of practice."
+    - id: '17.i'
+      node_type: Statement
+      text: "Use initiative in decision-making and generate transformative solutions through the synthesis of ideas and information as a result of critical reflexivity."
+  - id: '18'
+    node_type: Capability
+    text: "The advanced practitioner will engage in education and personal development to ensure provision of evidence-based practice."
+    source_notes:
+    - "Mapped to CfAP Multi-professional framework: 3.1 to 3.8"
+    children:
+    - id: '18.a'
+      node_type: Statement
+      text: "Promote the roles and professions of people who work with people with a learning disability to build the future workforce."
+    - id: '18.b'
+      node_type: Statement
+      text: "Engage with, appraise and respond to individuals’ motivations, development stage and capacity, working collaboratively to support health literacy and empower people with a learning disability to participate in decisions about their care and to maximise their health and wellbeing."
+    - id: '18.c'
+      node_type: Statement
+      text: "Advocate for and contribute to a culture of organisational learning to inspire future and existing staff to optimise their responsiveness to the needs of people with a learning disability."
+    - id: '18.d'
+      node_type: Statement
+      text: "Facilitate the co-production (design and delivery) of education and training, working in partnership with people with a learning disability."
+  - id: '19'
+    node_type: Capability
+    text: "The advanced practitioner will engage in research, audit and evaluation to identify and implement service improvements."
+    source_notes:
+    - "Mapped to CfAP Multi-professional framework: 4.1 to 4.8"
+    children:
+    - id: '19.a'
+      node_type: Statement
+      text: "Critically engage in research activity, enabling inclusive research for people with a learning disability and adhering to good, ethical research practice guidance so that evidence-based strategies are developed and applied to enhance quality, safety, productivity and value for money."
+    - id: '19.b'
+      node_type: Statement
+      text: "Advocate for reasonable adaptations to enable people with a learning disability to participate in audit, quality improvement initiatives, evaluation and research. "
+    - id: '19.c'
+      node_type: Statement
+      text: "Ensure research materials and processes are accessible to people with a learning disability, where appropriate."
+    - id: '19.d'
+      node_type: Statement
+      text: " Co-produce approaches to evaluating services and measuring impact, including the use of outcomes reported by people with a learning disability, their families and carers."
+    - id: '19.e'
+      node_type: Statement
+      text: "Critically appraise the ethical issues and influence processes relating to conducting research with people with a learning disability, including their informed consent to participate in research projects."

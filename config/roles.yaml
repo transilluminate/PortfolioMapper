@@ -41,7 +41,7 @@ roles:
       - "HCPC-2023-*"
       - "NMC-2018-Code"
       - "RPS-2021-Prescribing"
-      - "CfAP-2025-Advanced_Generic"
+      - "CfAP-*"
     default_academic_level: "advanced"
   
   qualified_ap:
@@ -51,8 +51,7 @@ roles:
       - "HCPC-2023-*"
       - "NMC-2018-Code"
       - "RPS-2021-Prescribing"
-      - "CfAP-2025-Advanced_Generic"
-      - "CfAP-2023-Consultant_Generic"
+      - "CfAP-*"
     default_academic_level: "masters"
 
   # --- Consultant / Senior Roles ---
