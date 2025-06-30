@@ -41,7 +41,7 @@ def main():
     """Main function to run the Streamlit application."""
     st.set_page_config(page_title="Portfolio Mapper AI", layout="wide")
     st.title("🗺️ AI-Powered Portfolio Mapper")
-    st.markdown("This tool uses AI to map your clinical reflections against multiple professional competency frameworks at the same time. No data is stored by this app, however, your reflection text **is** passed to Google Gemini Vertex API for processing. Please see the Google page on [Generative AI and data governance](https://cloud.google.com/vertex-ai/generative-ai/docs/data-governance) for more details.")
+    st.markdown("This tool uses AI to map your clinical reflections against multiple professional competency frameworks at the same time. No data is stored by this app, however, your reflection text **is** passed to Google Gemini Vertex API for processing. Please see the Google page on [Generative AI and data governance](https://cloud.google.com/vertex-ai/generative-ai/docs/data-governance) for more details. The source code is available on [Github](https://github.com/transilluminate/PortfolioMapper).")
 
     # --- Initialize Session State ---
     if "processing" not in st.session_state:
