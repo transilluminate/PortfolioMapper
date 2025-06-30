@@ -1,0 +1,330 @@
+metadata:
+  organisation: NHS England, Centre for Advancing Practice (CfAP)
+  title: Consultant-level practice capability and impact framework
+  date: "2025"
+  abbreviation: "CfAP Consultant: Generic (2023)"
+  version: "1"
+  dependencies: []
+  source_url: "https://advanced-practice.hee.nhs.uk/consultant/consultant-level-practice-capability-and-impact-framework/"
+
+structure:
+- id: expert_practice
+  node_type: Domain
+  text: Expert Practice
+  source_notes:
+  - "Purpose: Help firmly establish values-based professional practice across pathways, services, organisations and systems, working with individuals, families, carers, communities and others."
+  - "This goes beyond developing expertise in professional practice and independent decision-making in complex and unpredictable situations to incorporating both expertise and evidence-based practice across pathways, services, organisations and the system, working with service users, communities and partners."
+  - "('Values-based' practice with service users, the public, staff and students upholds the values of compassionate, respectful, person-centred, safe, evidence-based and integrated care, relationships, and services that challenge stigma, are inclusive, work together and use limited public money carefully. 'Others' includes all partners involved in contributing to services across the system.)"
+  children:
+  - id: '1'
+    node_type: Capability
+    text: "Based on the following model of expert professional practice from care and service to systems level"
+    children:
+    - id: '1.1'
+      node_type: Statement
+      text: "Model: High-quality, values-based professional practice that improves people's experience, supporting them to make decisions in complex situations. A positive approach to working with difference and diversity, challenging stigma and using the best possible communication methods.Sharing decision-making with service users and partners in every situation, so that: people can represent themselves and carers and communities can take action together; valid and reliable tools for providing care and services can be selected; and the effectiveness of physical, psychological and social interventions and services (including drug, non-drug and surgical) and the transition through each stage of care and services can be assessed."
+      source_notes:
+      - "Advanced Practice Level"
+  - id: '2'
+    node_type: Capability
+    text: "Help put in place peer reviews and evaluations of safety, quality and health outcomes, from pathway to systems level"
+    children:
+    - id: '2.1'
+      node_type: Statement
+      text: "Put in place a joint review of health care and services through peer reviews, audits and evaluations of safety, quality and health outcomes, making sure people's voices are at the heart of the process."
+      source_notes:
+      - "Transition from Advanced to Consultant Practice"
+    - id: '2.2'
+      node_type: Statement
+      text: "Put in place and evaluate systems and measures to show progress, making sure that people's voices are heard in all key activities across every level of the system."
+      source_notes:
+      - "Years 1-3 of practice"
+    - id: '2.3'
+      node_type: Statement
+      text: "Lead how risk is managed in unpredictable and complex situations, and where a precedent has not been set."
+      source_notes:
+      - "Years 1-3 of practice"
+  - id: '3'
+    node_type: Capability
+    text: "Lead health and social care provision with service users and communities, including practice accreditation, change, and continuous improvement across the system"
+    children:
+    - id: '3.1'
+      node_type: Statement
+      text: "Lead the ongoing development of evidence-based practice and improvement of quality, safety, and health and service outcomes."
+      source_notes:
+      - "Transition from Advanced to Consultant Practice"
+    - id: '3.2'
+      node_type: Statement
+      text: "Lead the ongoing development of, and putting in place and reviewing, care and service pathways, standards, policies, guidelines, procedures, service improvement and practice accreditation."
+      source_notes:
+      - "Years 1-3 of practice"
+    - id: '3.3'
+      node_type: Statement
+      text: "Have formal systems for collecting and reviewing feedback from patients and service users, carers and staff across services, working with service teams to identify and put in place any action needed as a result of that feedback."
+      source_notes:
+      - "Years 1-3 of practice"
+    - id: '3.4'
+      node_type: Statement
+      text: "Involve local people, carers and service users in developing, evaluating and improving services."
+      source_notes:
+      - "Transition from Advanced to Consultant Practice"
+    - id: '3.5'
+      node_type: Statement
+      text: "Work with professional bodies, clinical networks, commissioners, regional and national level, third sectors, charities and other partners."
+      source_notes:
+      - "Years 1-3 of practice"
+- id: 'strategic_and_enabling_leadership'
+  node_type: Domain
+  text: Strategic and Enabling Leadership
+  source_notes:
+  - "Purpose: Provide values-based leadership across the care pathway, services and systems in complex and changing situations."
+  - "This goes beyond clinical and service leadership to influencing how joined-up future health-care systems are developed - locally, regionally and nationally, based on the four domains, to guide how care and services are commissioned and transformed."
+  children:
+  - id: '4'
+    node_type: Capability
+    text: "Build high-quality , compassionate relationships , turning shared values into expected patterns of behaviour to make sure all care and services are safe, effective and person - centred (focused on the individual, their needs and their choices)"
+    children:
+    - id: '4.1'
+      node_type: Statement
+      text: "Model: A strong, visible presence and open and trusting relationships with both internal and external partners to achieve service objectives, based on a foundation of self-awareness and emotional intelligence. Shared values, courageously speaking up for service users and staff, listening to them, acting on what is important to them and supporting them in all situations. Relationships that inspire others and which imagine the future and promote working together, enabling others to act and speak up freely if something is not right, searching for opportunities and experiments and taking supported risks, and recognising and celebrating contributions and achievements. Priority given to your own and others' health and well-being. Networks formed that allow for high levels of joint working within and across organisations and sectors."
+      source_notes:
+      - "Transition from Advanced to Consultant Practice"
+  - id: '5'
+    node_type: Capability
+    text: "Help create a person-centred culture that makes workplaces safe, effective and good places to work in, by having collective leadership that establishes shared values in teams, systems and networks"
+    children:
+    - id: '5.1'
+      node_type: Statement
+      text: "Create a culture of effectiveness, inclusiveness and excellence across how services are traditionally delivered, to develop: high-performing, independent health-care teams across the system; and good places to work, where people matter and people from all backgrounds can excel."
+      source_notes:
+      - "Years 1-3 of practice"
+    - id: '5.2'
+      node_type: Statement
+      text: "Celebrate high-performing teams that support staff's well-being and demonstrate commitment and empowerment in line with clear principles, values, and ways of working."
+      source_notes:
+      - "Transition from Advanced to Consultant Practice"
+    - id: '5.3'
+      node_type: Statement
+      text: "Use effective ways of meeting people's needs (for example, streamlining pathways), engagement strategies, clear measurement indicators to monitor care and the system, improvement approaches, thorough evaluation of services and care, and innovation to develop person-centred workplaces and transform practice and services across the system."
+      source_notes:
+      - "Years 1-3 of practice"
+  - id: '6'
+    node_type: Capability
+    text: "Encourage collective leadership capability and capacity"
+    children:
+    - id: '6.1'
+      node_type: Statement
+      text: "Encourage others to take on leadership responsibilities, building high-quality leadership from a wide range of backgrounds."
+      source_notes:
+      - "Transition from Advanced to Consultant Practice"
+    - id: '6.2'
+      node_type: Statement
+      text: "Support professional development that improves people's leadership abilities, mentorship and coaching, and how they give and receive feedback, learn from mistakes and build on what works well."
+      source_notes:
+      - "Transition from Advanced to Consultant Practice"
+    - id: '6.3'
+      node_type: Statement
+      text: "Build networks of leaders who can work together to deliver service, organisational and system objectives and respond positively and creatively to changing situations."
+      source_notes:
+      - "Years 3-5 of practice"
+  - id: '7'
+    node_type: Capability
+    text: "Lead the way in developing person-centred, compassionate, safe and effective care and transforming changing situations"
+    children:
+    - id: '7.1'
+      node_type: Statement
+      text: "Lead strategic development, improvement, inquiry and innovation across specific workstreams that informs and responds to system objectives and supports commissioners and senior leaders with their decision-making."
+      source_notes:
+      - "Years 1-3 of practice"
+    - id: '7.2'
+      node_type: Statement
+      text: "Actively involve key partners in creating a bold and innovative shared vision which is in line with the future needs and aims of the general population across health and social care."
+      source_notes:
+      - "Years 1-3 of practice"
+    - id: '7.3'
+      node_type: Statement
+      text: "Anticipate the impact of health trends and take part in planning that will have a significant effect on people's care and their experience of services and the wider system, using best-practice examples from other areas of health care."
+      source_notes:
+      - "Years 1-3 of practice"
+    - id: '7.4'
+      node_type: Statement
+      text: "Build and maintain sustainable partnerships across the system, nationally and internationally, drawing on standards and best-practice evidence to guide decision-making"
+      source_notes:
+      - "Years 3-5 of practice"
+- id: 'learning_developing_improving_across_the_system'
+  node_type: Domain
+  text: "Learning, developing, improving across the system"
+  source_notes:
+  - "Purpose: Develop staff potential, add to and transform the workforce, and help people to learn, develop and improve (in and from practice) to promote excellence."
+  - "This goes beyond helping to increase levels of complexity in learning, improving and developing, to transforming the workplace. It uses the workplace as a key resource for encouraging cultural change and interdisciplinary and system learning and influencing higher-education curriculum's and broader approaches to adding to a workforce and its capabilities, regionally and nationally."
+  children:
+  - id: '8'
+    node_type: Capability
+    text: "Stay effective through reflection and learning and help others to do the same"
+    children:
+    - id: '8.1'
+      node_type: Statement
+      text: "Model: Asking for feedback about how your own behaviour and values affect others. Reflecting on your actions, peer reviews and support for ongoing learning, increasing effectiveness and career-planning. Taking part in learning and development across the system to improve service users' experiences, safety, people's well-being, and to pass on knowledge. Using learning and development processes that support blended approaches to learning (for example, formal and informal, face-to-face, e-learning and so on) and promote learning together, and which are adapted to individual learning styles and motivation."
+      source_notes:
+      - "Advanced Practice Level"
+    - id: '8.2'
+      node_type: Statement
+      text: "Take part in continuous professional development (CPD), valuing lifelong learning and peer support and being flexible when dealing with changing situations."
+      source_notes:
+      - "Advanced Practice Level"
+  - id: '9'
+    node_type: Capability
+    text: "Actively create a learning culture across the system, providing opportunities for shared learning, development and improvement and for others to develop their capabilities"
+    children:
+    - id: '9.1'
+      node_type: Statement
+      text: "Use the workplace as a key resource for active learning, development and improvement, to support: quality learning cultures and placements; giving and receiving feedback and critical review; reviewing quality and safety data, including outcomes and experience; and practise transforming the workplace and how this can be sustained across the system."
+      source_notes:
+      - "Transition from Advanced to Consultant Practice"
+    - id: '9.2'
+      node_type: Statement
+      text: "Work as an effective facilitator, using different learning and development strategies across different situations to develop: person-centred, safe, effective workplace learning, from practice to system levels; and continued and effective ways of learning and working, including educational innovations and technology. (This should reflect good teamwork, a clear purpose, agreed priorities, a high level of support and challenge, learning from mistakes, and building on what works.)"
+      source_notes:
+      - "Transition from Advanced to Consultant Practice"
+    - id: '9.3'
+      node_type: Statement
+      text: "Motivate and coach or mentor individuals and teams to: perform better and more effectively; meet future workforce demands through cross-sector working; develop individual and group independence; improve career progression within and beyond traditional boundaries; and develop capacity and capability across the health economy and sectors at regional and national levels"
+      source_notes:
+      - "Years 3-5 of practice"
+  - id: '10'
+    node_type: Capability
+    text: "Take the lead in putting in place peer reviews and learning and development systems, and in developing the workforce so that it can maintain consistent professional standards, helping career progression, systems learning and transformation"
+    children:
+    - id: '10.1'
+      node_type: Statement
+      text: "Lead peer learning reviews and ongoing learning and development systems, and evaluate their effect on service users and their families, carers and staff, and services."
+      source_notes:
+      - "Years 1-3 of practice"
+    - id: '10.2'
+      node_type: Statement
+      text: "Develop the workforce so that staff can fulfil their potential, make progress in their careers and meet the future needs of the system."
+      source_notes:
+      - "Years 3-5 of practice"
+    - id: '10.3'
+      node_type: Statement
+      text: "Work with higher education to make sure professional curriculums reflect excellence, the needs of the service, current evidence and ways of working that inspire students and academic staff to contribute to future health and care, regionally and nationally."
+      source_notes:
+      - "Years 1-3 of practice"
+- id: "research_and_innovation"
+  node_type: Domain
+  text: Research and Innovation
+  source_notes:
+  - "Purpose: Develop a 'knowledge-rich and inquiry' culture across the service and system that contributes to research outputs and has a positive effect on development, quality, innovation, increasing capacity and capability, and making systems more effective."
+  - "This goes beyond using and enabling evidence-based professional practice, data and audits, to continually evaluating and improving practice, creating knowledge-rich and inquiring cultures, supervising research, working in and leading interdisciplinary research and innovation programmes to contribute to the knowledge base, and adding capacity and capability in research and evaluation across the system and beyond."
+  children:
+  - id: '11'
+    node_type: Capability
+    text: "Set an example of an inquiring approach, making knowledge accessible, combining research with practice, learning and ongoing improvement through evaluation, approaches to research and improvement that guide person-centred, safe and effective care and services"
+    children:
+    - id: '11.1'
+      node_type: Statement
+      text: "Show how research can be combined with learning and practice to achieve an approach to care based on evidence through: identifying gaps in best evidence and challenging existing situations, with the aim of finding better and more effective ways of delivering quality; developing new insights from appraising, analysing, evaluating and blending different types of evidence and knowledge from a variety of sources, including the experiences of service users and carers, expertise and local knowledge, and considering the implications for practice; appreciating what is appropriate methodology informed by theory and interpretative framework, for example, qualitative, audit and quality improvement; and synthesising knowledge, evidence and experience of national and international developments in health and social care to influence how future health and care services are developed across disciplines and beyond institutions."
+      source_notes:
+      - "Transition from Advanced to Consultant Practice"
+    - id: '11.2'
+      node_type: Statement
+      text: "Contribute to national and international guideline development groups and steering groups, making sure that the wider organisation continues to lead the way in its professional practice across the system, acting as a peer reviewer of research, inquiry and innovation and evaluation projects, locally, regionally and nationally."
+      source_notes:
+      - "Years 1-3 of practice"
+    - id: '11.3'
+      node_type: Statement
+      text: "Contribute to knowledge through comprehensive research, innovation and inquiry as well as helping others to do the same, building academic networks and research partnerships and working with higher-education institutions and commercial and charity sectors."
+      source_notes:
+      - "Years 3-5 of practice"
+  - id: '12'
+    node_type: Capability
+    text: "Help establish a 'knowledge-rich and inquiry' culture of development, improvement, evaluation and innovation, capacity and capability"
+    children:
+    - id: '12.1'
+      node_type: Statement
+      text: "Actively develop a culture of sharing knowledge across the system that values research, evaluation and academic inquiry, and adds to capability and capacity."
+      source_notes:
+      - "Years 1-3 of practice"
+    - id: '12.2'
+      node_type: Statement
+      text: "Actively involve staff in evaluating the impact of research, inquiry and innovation through: passing on knowledge and improvement methodologies; and supporting and supervising others, using formal and varied approaches to research and inquiry, and methods that meet objectives using local review, ethical and governance systems."
+      source_notes:
+      - "Years 1-3 of practice"
+    - id: '12.3'
+      node_type: Statement
+      text: "Develop and establish a combined approach (based on the leadership and education pillars) to practice, service and quality, focusing on improvement, development, research, academic inquiry and innovation across the service and system and the impact on health and social care."
+      source_notes:
+      - "Years 3-5 of practice"
+  - id: '13'
+    node_type: Capability
+    text: "Lead research and academic programmes towards increasing knowledge and understanding for guiding person-centred, safe and effective care"
+    children:
+    - id: '13.1'
+      node_type: Statement
+      text: "Lead local or national research programmes, contribute to national and international research, inquiry, innovation and evaluation that generate new knowledge and understanding about safe and effective care across the system, involving the public, service users and carers."
+      source_notes:
+      - "Years 3-5 of practice"
+    - id: '13.2'
+      node_type: Statement
+      text: "Lead and contribute to national and international forums, guideline development groups, steering groups, policy development and strategy for your area of expertise, making sure the wider system benefits from the most advanced developments and strategic networks that make the most of performance and combining research with practice."
+      source_notes:
+      - "Years 1-3 of practice"
+    - id: '13.3'
+      node_type: Statement
+      text: "Lead on activities that allow the widest access to new research, innovations, outcome indicators and ways of working that will benefit health care, including high-quality publications, professional and public engagement strategies and appropriate media."
+      source_notes:
+      - "Years 3-5 of practice"
+- id: "consultancy_approaches_for_putting_in_place_and_transmitting_expertise_across_the_system"
+  node_type: Domain
+  text: "Consultancy approaches for putting in place and sustaining expertise across the system"
+  source_notes:
+  - "Purpose: Establishing expertise across the system by using consultancy approaches and opportunities that have maximum impact on practice, services, communities and populations, and which add to and sustain workforce capacity and capability."
+  - "This goes beyond providing direct advice, consultancy and expertise to individuals and interdisciplinary teams in a wide range of situations, to providing expertise across the system to achieve a significant impact across the general population and adds to the capacity and capability of the workforce."
+  children:
+  - id: '14'
+    node_type: Capability
+    text: "Provide direct and indirect consultancy in different situations, sharing expertise with the widest possible audience and developing and sustaining the capacity and capability of the workforce"
+    children:
+    - id: '14.1'
+      node_type: Statement
+      text: "Use a combined approach across boundaries, such as between hospitals and primary care, working with stakeholders across the system and sectors to provide wider perspectives and knowledge in relation to people, communities, healthcare, and services."
+      source_notes:
+      - "Transition from Advanced to Consultant Practice"
+    - id: '14.2'
+      node_type: Statement
+      text: "Provide professional expertise to clinical and care pathways, services, organisations , systems , senior leaders and commissioners across complex issues and situations to add to the public's knowledge (including of their own health conditions), experience and health outcomes."
+      source_notes:
+      - "Years 1-3 of practice"
+    - id: '14.3'
+      node_type: Statement
+      text: "Act as a national and international ambassador and provide expertise through learning and development opportunities, keynote conferences and consultancy and university honorary appointments, to allow closer links between education and research and practice."
+      source_notes:
+      - "Years 3-5 of practice"
+  - id: '15'
+    node_type: Capability
+    text: "Developing and using expertise though consultancy approaches at every level of the system"
+    children:
+    - id: '15.1'
+      node_type: Statement
+      text: "Provide expertise and advice at every level of consultancy practice in a way that helps senior clinical leaders to improve their decision-making and problem-solving."
+      source_notes:
+      - "Years 1-3 of practice"
+    - id: '15.2'
+      node_type: Statement
+      text: "Make the best use of consultancy, advice and expertise through working directly at systems level, supporting other senior leaders to work together across health and social care and evaluating the impact of change."
+      source_notes:
+      - "Years 1-3 of practice"
+  - id: '16'
+    node_type: Capability
+    text: "Lead consultancy practice and its ongoing development in others"
+    children:
+    - id: '16.1'
+      node_type: Statement
+      text: "Lead programmes (with other consultant practitioners) of mentorship, development and evaluating the impact of change in consultancy practice across systems for advanced practitioners and senior clinical leaders, regionally and nationally."
+      source_notes:
+      - "Years 3-5 of practice"
+    - id: '16.2'
+      node_type: Statement
+      text: "Lead on sharing and using expertise across the system and direction and guidance for achieving excellence in practice in ways that help others improve their own decision-making and problem-solving."
+      source_notes:
+      - "Years 3-5 of practice"

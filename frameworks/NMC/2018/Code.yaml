@@ -1,0 +1,480 @@
+metadata:
+  organisation: Nursing and Midwifery Council (NMC)
+  title: 'The Code: Professional standards of practice and behaviour for nurses, midwives and nursing associates'
+  date: "2018"
+  abbreviation: NMC Code (2018)
+  version: "1"
+  dependencies: []
+  source_url: "https://www.nmc.org.uk/standards/code/read-the-code-online/"
+
+structure:
+- id: priorise_people
+  node_type: Domain
+  text: Priorise people
+  source_notes:
+    - "You put the interests of people using or needing nursing or midwifery services first. You make their care and safety your main concern and make sure that their dignity is preserved and their needs are recognised, assessed and responded to. You make sure that those receiving care are treated with respect, that their rights are upheld and that any discriminatory attitudes and behaviours towards those receiving care are challenged."
+    - "The fundamentals of care include, but are not limited to, nutrition, hydration, bladder and bowel care, physical handling and making sure that those receiving care are kept in clean and hygienic conditions. It includes making sure that those receiving care have adequate access to nutrition and hydration, and making sure that you provide help to those who are not able to feed themselves or drink fluid unaided."
+  collapse_children: true
+  children:
+  - id: '1'
+    node_type: Area
+    text: Treat people as individuals and uphold their dignity
+    children:
+    - id: '1.1'
+      node_type: Statement
+      text: treat people with kindness, respect and compassion
+    - id: '1.2'
+      node_type: Statement
+      text: make sure you deliver the fundamentals of care effectively
+    - id: '1.3'
+      node_type: Statement
+      text: avoid making assumptions and recognise diversity and individual choice
+    - id: '1.4'
+      node_type: Statement
+      text: make sure that any treatment, assistance or care for which you are responsible is delivered without undue delay
+    - id: '1.5'
+      node_type: Statement
+      text: respect and uphold people's human rights
+  - id: '2'
+    node_type: Area
+    text: Listen to people and respond to their preferences and concerns
+    children:
+    - id: '2.1'
+      node_type: Statement
+      text: work in partnership with people to make sure you deliver care effectively
+    - id: '2.2'
+      node_type: Statement
+      text: recognise and respect the contribution that people can make to their own health and wellbeing
+    - id: '2.3'
+      node_type: Statement
+      text: encourage and empower people to share decisions about their treatment and care
+    - id: '2.4'
+      node_type: Statement
+      text: respect the level to which people receiving care want to be involved in decisions about their own health, wellbeing and care
+    - id: '2.5'
+      node_type: Statement
+      text: respect, support and document a person\u2019s right to accept or refuse care and treatment
+    - id: '2.6'
+      node_type: Statement
+      text: recognise when people are anxious or in distress and respond compassionately and politely
+  - id: '3'
+    node_type: Area
+    text: Make sure that people's physical, social and psychological needs are assessed and responded to
+    children:
+    - id: '3.1'
+      node_type: Statement
+      text: pay special attention to promoting wellbeing, preventing ill health and meeting the changing health and care needs of people during all life stages
+    - id: '3.2'
+      node_type: Statement
+      text: recognise and respond compassionately to the needs of those who are in the last few days and hours of life
+    - id: '3.3'
+      node_type: Statement
+      text: act in partnership with those receiving care, helping them to access relevant health and social care, information and support when they need it
+    - id: '3.4'
+      node_type: Statement
+      text: act as an advocate for the vulnerable, challenging poor practice and discriminatory attitudes and behaviour relating to their care
+  - id: '4'
+    node_type: Area
+    text: Act in the best interests of people at all times
+    children:
+    - id: '4.1'
+      node_type: Statement
+      text: balance the need to act in the best interests of people at all times with the requirement to respect a person\u2019s right to accept or refuse treatment
+    - id: '4.2'
+      node_type: Statement
+      text: make sure that you get properly informed consent and document it before carrying out any action
+    - id: '4.3'
+      node_type: Statement
+      text: keep to all relevant laws about mental capacity that apply in the country in which you are practising, and make sure that the rights and best interests of those who lack capacity are still at the centre of the decision-making process
+    - id: '4.4'
+      node_type: Statement
+      text: tell colleagues, your manager and the person receiving care if you have a conscientious objection to a particular procedure and arrange for a suitably qualified colleague to take over responsibility for that person's care
+  - id: '5'
+    node_type: Area
+    text: Respect people's right to privacy and confidentiality
+    source_notes:
+      - "As a nurse, midwife or nursing associate, you owe a duty of confidentiality to all those who are receiving care. This includes making sure that they are informed about their care and that information about them is shared appropriately."
+    children:
+    - id: '5.1'
+      node_type: Statement
+      text: respect a person's right to privacy in all aspects of their care
+    - id: '5.2'
+      node_type: Statement
+      text: make sure that people are informed about how and why information is used and shared by those who will be providing care
+    - id: '5.3'
+      node_type: Statement
+      text: respect that a person's right to privacy and confidentiality continues after they have died
+    - id: '5.4'
+      node_type: Statement
+      text: share necessary information with other health and care professionals and agencies only when the interests of patient safety and public protection override the need for confidentiality
+    - id: '5.5'
+      node_type: Statement
+      text: share with people, their families and their carers, as far as the law allows, the information they want or need to know about their health, care and ongoing treatment sensitively and in a way they can understand
+- id: practice_effectively
+  node_type: Domain
+  text: Practice effectively
+  source_notes:
+    - "You assess need and deliver or advise on treatment, or give help (including preventative or rehabilitative care) without too much delay and to the best of your abilities, on the basis of the best evidence available and best practice. You communicate effectively, keeping clear and accurate records and sharing skills, knowledge and experience where appropriate. You reflect and act on any feedback you receive to improve your practice."
+  collapse_children: true
+  children:
+  - id: '6'
+    node_type: Area
+    text: Always practise in line with the best available evidence
+    children:
+    - id: '6.1'
+      node_type: Statement
+      text: make sure that any information or advice given is evidence-based, including information relating to using any health and care products or services
+    - id: '6.2'
+      node_type: Statement
+      text: maintain the knowledge and skills you need for safe and effective practice
+  - id: '7'
+    node_type: Area
+    text: Communicate clearly
+    children:
+    - id: '7.1'
+      node_type: Statement
+      text: use terms that people in your care, colleagues and the public can understand
+    - id: '7.2'
+      node_type: Statement
+      text: take reasonable steps to meet people's language and communication needs, providing, wherever possible, assistance to those who need help to communicate their own or other people's needs
+    - id: '7.3'
+      node_type: Statement
+      text: use a range of verbal and non-verbal communication methods, and consider cultural sensitivities, to better understand and respond to people's personal and health needs
+    - id: '7.4'
+      node_type: Statement
+      text: check people's understanding from time to time to keep misunderstanding or mistakes to a minimum
+    - id: '7.5'
+      node_type: Statement
+      text: be able to communicate clearly and effectively in English
+  - id: '8'
+    node_type: Area
+    text: Work cooperatively
+    children:
+    - id: '8.1'
+      node_type: Statement
+      text: respect the skills, expertise and contributions of your colleagues, referring matters to them when appropriate
+    - id: '8.2'
+      node_type: Statement
+      text: maintain effective communication with colleagues
+    - id: '8.3'
+      node_type: Statement
+      text: keep colleagues informed when you are sharing the care of individuals with other health and care professionals and staff
+    - id: '8.4'
+      node_type: Statement
+      text: work with colleagues to evaluate the quality of your work and that of the team
+    - id: '8.5'
+      node_type: Statement
+      text: work with colleagues to preserve the safety of those receiving care
+    - id: '8.6'
+      node_type: Statement
+      text: share information to identify and reduce risk
+    - id: '8.7'
+      node_type: Statement
+      text: be supportive of colleagues who are encountering health or performance problems. However, this support must never compromise or be at the expense of patient safety or public safety
+  - id: '9'
+    node_type: Area
+    text: Share your skills, knowledge and experience for the benefit of people receiving care and your colleagues
+    children:
+    - id: '9.1'
+      node_type: Statement
+      text: provide honest, accurate and constructive feedback to colleagues
+    - id: '9.2'
+      node_type: Statement
+      text: gather and reflect on feedback from a variety of sources, using it to improve your practice and performance
+    - id: '9.3'
+      node_type: Statement
+      text: deal with differences of professional opinion with colleagues by discussion and informed debate, respecting their views and opinions and behaving in a professional way at all times
+    - id: '9.4'
+      node_type: Statement
+      text: support students' and colleagues' learning to help them develop their professional competence and confidence
+  - id: '10'
+    node_type: Area
+    source_notes:
+    - "This applies to the records that are relevant to your scope of practice It includes but is not limited to patient records."
+    text: Keep records relevant to your practice
+    children:
+    - id: '10.1'
+      node_type: Statement
+      text: complete all records at the time or as soon as possible after an event, recording if the notes are written some time after the event
+    - id: '10.2'
+      node_type: Statement
+      text: identify any risks or problems that have arisen and the steps taken to deal with them, so that colleagues who use the records have all the information they need
+    - id: '10.3'
+      node_type: Statement
+      text: complete all records accurately and without any falsification, taking immediate and appropriate action if you become aware that someone has not kept to these requirements
+    - id: '10.4'
+      node_type: Statement
+      text: attribute any entries you make in any paper or electronic records to yourself, making sure they are clearly written, dated and timed, and do not include unnecessary abbreviations, jargon or speculation
+    - id: '10.5'
+      node_type: Statement
+      text: take all steps to make sure that all records are kept securely
+    - id: '10.6'
+      node_type: Statement
+      text: collect, treat and store all data and research findings appropriately
+  - id: '11'
+    node_type: Area
+    text: Be accountable for your decisions to delegate tasks and duties to other people
+    children:
+    - id: '11.1'
+      node_type: Statement
+      text: only delegate tasks and duties that are within the other person's scope of competence, making sure that they fully understand your instructions
+    - id: '11.2'
+      node_type: Statement
+      text: make sure that everyone you delegate tasks to is adequately supervised and supported so they can provide safe and compassionate care
+    - id: '11.3'
+      node_type: Statement
+      text: confirm that the outcome of any task you have delegated to someone else meets the required standard
+  - id: '12'
+    node_type: Area
+    text: Have in place an indemnity arrangement which provides appropriate cover for any practice you take on as a nurse, midwife or nursing associate in the United Kingdom
+    children:
+    - id: '12.1'
+      node_type: Statement
+      text: make sure that you have an appropriate indemnity arrangement in place relevant to your scope of practice
+- id: preserve_safety
+  node_type: Domain
+  text: Preserve safety
+  source_notes:
+    - "You make sure that patient and public safety is not affected. You work within the limits of your competence, exercising your professional 'duty of candour' and raising concerns immediately whenever you come across situations that put patients or public safety at risk. You take necessary action to deal with any concerns where appropriate."
+  collapse_children: true
+  children:
+  - id: '13'
+    node_type: Area
+    text: Recognise and work within the limits of your competence
+    children:
+    - id: '13.1'
+      node_type: Statement
+      text: accurately identify, observe and assess signs of normal or worsening physical and mental health in the person receiving care
+    - id: '13.2'
+      node_type: Statement
+      text: make a timely referral to another practitioner when any action, care or treatment is required
+    - id: '13.3'
+      node_type: Statement
+      text: ask for help from a suitably qualified and experienced professional to carry out any action or procedure that is beyond the limits of your competence
+    - id: '13.4'
+      node_type: Statement
+      text: take account of your own personal safety as well as the safety of people in your care
+    - id: '13.5'
+      node_type: Statement
+      text: complete the necessary training before carrying out a new role
+  - id: '14'
+    node_type: Area
+    text: Be open and candid with all service users about all aspects of care and treatment, including when any mistakes or harm have taken place
+    source_notes:
+    - "The professional duty of candour is about openness and honesty when things go wrong. “Every healthcare professional must be open and honest with patients when something goes wrong with their treatment or care which causes, or has the potential to cause, harm or distress.” Joint statement from the Chief Executives of statutory regulators of healthcare professionals."
+    children:
+    - id: '14.1'
+      node_type: Statement
+      text: act immediately to put right the situation if someone has suffered actual harm for any reason or an incident has happened which had the potential for harm
+    - id: '14.2'
+      node_type: Statement
+      text: explain fully and promptly what has happened, including the likely effects, and apologise to the person affected and, where appropriate, their advocate, family or carers
+    - id: '14.3'
+      node_type: Statement
+      text: document all these events formally and take further action (escalate) if appropriate so they can be dealt with quickly
+  - id: '15'
+    node_type: Area
+    text: Always offer help if an emergency arises in your practice setting or anywhere else
+    children:
+    - id: '15.1'
+      node_type: Statement
+      text: only act in an emergency within the limits of your knowledge and competence
+    - id: '15.2'
+      node_type: Statement
+      text: arrange, wherever possible, for emergency care to be accessed and provided promptly
+    - id: '15.3'
+      node_type: Statement
+      text: take account of your own safety, the safety of others and the availability of other options for providing care
+  - id: '16'
+    node_type: Area
+    text: Act without delay if you believe that there is a risk to patient safety or public protection
+    children:
+    - id: '16.1'
+      node_type: Statement
+      text: raise and, if necessary, escalate any concerns you may have about patient or public safety, or the level of care people are receiving in your workplace or any other health and care setting and use the channels available to you in line with our guidance and your local working practices
+    - id: '16.2'
+      node_type: Statement
+      text: raise your concerns immediately if you are being asked to practise beyond your role, experience and training
+    - id: '16.3'
+      node_type: Statement
+      text: tell someone in authority at the first reasonable opportunity if you experience problems that may prevent you working within the Code or other national standards, taking prompt action to tackle the causes of concern if you can
+    - id: '16.4'
+      node_type: Statement
+      text: acknowledge and act on all concerns raised to you, investigating, escalating or dealing with those concerns where it is appropriate for you to do so
+    - id: '16.5'
+      node_type: Statement
+      text: not obstruct, intimidate, victimise or in any way hinder a colleague, member of staff, person you care for or member of the public who wants to raise a concern
+    - id: '16.6'
+      node_type: Statement
+      text: protect anyone you have management responsibility for from any harm, detriment, victimisation or unwarranted treatment after a concern is raised
+  - id: '17'
+    node_type: Area
+    text: Raise concerns immediately if you believe a person is vulnerable or at risk and needs extra support and protection
+    children:
+    - id: '17.1'
+      node_type: Statement
+      text: take all reasonable steps to protect people who are vulnerable or at risk from harm, neglect or abuse
+    - id: '17.2'
+      node_type: Statement
+      text: share information if you believe someone may be at risk of harm, in line with the laws relating to the disclosure of information
+    - id: '17.3'
+      node_type: Statement
+      text: have knowledge of and keep to the relevant laws and policies about protecting and caring for vulnerable people
+  - id: '18'
+    node_type: Area
+    text: Advise on, prescribe, supply, dispense or administer medicines within the limits of your training and competence, the law, our guidance and other relevant policies, guidance and regulations
+    source_notes:
+    - "Prescribing is not within the scope of practice of everyone on our register. Nursing associates don’t prescribe, but they may supply, dispense and administer medicines. Nurses and midwives who have successfully completed a further qualification in prescribing and recorded it on our register are the only people on our register that can prescribe."
+    children:
+    - id: '18.1'
+      node_type: Statement
+      text: prescribe, advise on, or provide medicines or treatment, including repeat prescriptions (only if you are suitably qualified) if you have enough knowledge of that person's health and are satisfied that the medicines or treatment serve that person's health needs
+    - id: '18.2'
+      node_type: Statement
+      text: keep to appropriate guidelines when giving advice on using controlled drugs and recording the prescribing, supply, dispensing or administration of controlled drugs
+    - id: '18.3'
+      node_type: Statement
+      text: make sure that the care or treatment you advise on, prescribe, supply, dispense or administer for each person is compatible with any other care or treatment they are receiving, including (where possible) over-the-counter medicines
+    - id: '18.4'
+      node_type: Statement
+      text: take all steps to keep medicines stored securely
+    - id: '18.5'
+      node_type: Statement
+      text: wherever possible, avoid prescribing for yourself or for anyone with whom you have a close personal relationship
+  - id: '19'
+    node_type: Area
+    text: Be aware of, and reduce as far as possible, any potential for harm associated with your practice
+    source_notes:
+    - "Human factors refer to environmental, organisational and job factors, and human and individual characteristics, which influence behaviour at work in a way which can affect health and safety - Health and Safety Executive."
+    children:
+    - id: '19.1'
+      node_type: Statement
+      text: take measures to reduce as far as possible, the likelihood of mistakes, near misses, harm and the effect of harm if it takes place
+    - id: '19.2'
+      node_type: Statement
+      text: take account of current evidence, knowledge and developments in reducing mistakes and the effect of them and the impact of human factors and system failures
+    - id: '19.3'
+      node_type: Statement
+      text: keep to and promote recommended practice in relation to controlling and preventing infection
+    - id: '19.4'
+      node_type: Statement
+      text: take all reasonable personal precautions necessary to avoid any potential health risks to colleagues, people receiving care and the public
+- id: promote_professionalism_and_trust
+  node_type: Domain
+  text: Promote professionalism and trust
+  source_notes:
+    - "You uphold the reputation of your profession at all times. You should display a personal commitment to the standards of practice and behaviour set out in the Code. You should be a model of integrity and leadership for others to aspire to. This should lead to trust and confidence in the profession from patients, people receiving care, other health and care professionals and the public."
+  collapse_children: true
+  children:
+  - id: '20'
+    node_type: Area
+    text: Uphold the reputation of your profession at all times
+    children:
+    - id: '20.1'
+      node_type: Statement
+      text: keep to and uphold the standards and values set out in the Code
+    - id: '20.2'
+      node_type: Statement
+      text: act with honesty and integrity at all times, treating people fairly and without discrimination, bullying or harassment
+    - id: '20.3'
+      node_type: Statement
+      text: be aware at all times of how your behaviour can affect and influence the behaviour of other people
+    - id: '20.4'
+      node_type: Statement
+      text: keep to the laws of the country in which you are practising
+    - id: '20.5'
+      node_type: Statement
+      text: treat people in a way that does not take advantage of their vulnerability or cause them upset or distress
+    - id: '20.6'
+      node_type: Statement
+      text: stay objective and have clear professional boundaries at all times with people in your care (including those who have been in your care in the past), their families and carers
+    - id: '20.7'
+      node_type: Statement
+      text: make sure you do not express your personal beliefs (including political, religious or moral beliefs) to people in an inappropriate way
+    - id: '20.8'
+      node_type: Statement
+      text: act as a role model of professional behaviour for students and newly qualified nurses, midwives and nursing associates to aspire to
+    - id: '20.9'
+      node_type: Statement
+      text: maintain the level of health you need to carry out your professional role
+    - id: '20.10'
+      node_type: Statement
+      text: use all forms of spoken, written and digital communication (including social media and networking sites) responsibly, respecting the right to privacy of others at all times
+  - id: '21'
+    node_type: Area
+    text: Uphold your position as a registered nurse, midwife or nursing associate
+    children:
+    - id: '21.1'
+      node_type: Statement
+      text: refuse all but the most trivial gifts, favours or hospitality as accepting them could be interpreted as an attempt to gain preferential treatment
+    - id: '21.2'
+      node_type: Statement
+      text: never ask for or accept loans from anyone in your care or anyone close to them
+    - id: '21.3'
+      node_type: Statement
+      text: act with honesty and integrity in any financial dealings you have with everyone you have a professional relationship with, including people in your care
+    - id: '21.4'
+      node_type: Statement
+      text: make sure that any advertisements, publications or published material you produce or have produced for your professional services are accurate, responsible, ethical, do not mislead or exploit vulnerabilities and accurately reflect your relevant skills, experience and qualifications
+    - id: '21.5'
+      node_type: Statement
+      text: never use your status as a registered professional to promote causes that are not related to health
+    - id: '21.6'
+      node_type: Statement
+      text: cooperate with the media only when it is appropriate to do so, and then always protecting the confidentiality and dignity of people receiving treatment or care
+  - id: '22'
+    node_type: Area
+    text: Fulfil all registration requirements
+    children:
+    - id: '22.1'
+      node_type: Statement
+      text: meet any reasonable requests so we can oversee the registration process
+    - id: '22.2'
+      node_type: Statement
+      text: keep to our prescribed hours of practice and carry out continuing professional development activities
+    - id: '22.3'
+      node_type: Statement
+      text: keep your knowledge and skills up to date, taking part in appropriate and regular learning and professional development activities that aim to maintain and develop your competence and improve your performance
+  - id: '23'
+    node_type: Area
+    text: Cooperate with all investigations and audits
+    source_notes:
+    - "This includes investigations or audits either against you or relating to others, whether individuals or organisations. It also includes cooperating with requests to act as a witness in any hearing that forms part of an investigation, even after you have left the register."
+    children:
+    - id: '23.1'
+      node_type: Statement
+      text: cooperate with any audits of training records, registration records or other relevant audits that we may want to carry out to make sure you are still fit to practise
+    - id: '23.2'
+      node_type: Statement
+      text: tell both us and any employers as soon as you can about any caution or charge against you, or if you have received a conditional discharge in relation to, or have been found guilty of, a criminal offence (other than a protected caution or conviction)
+    - id: '23.3'
+      node_type: Statement
+      text: tell any employers you work for if you have had your practice restricted or had any other conditions imposed on you by us or any other relevant body
+    - id: '23.4'
+      node_type: Statement
+      text: tell us and your employers at the first reasonable opportunity if you are or have been disciplined by any regulatory or licensing organisation, including those who operate outside of the professional health and care environment
+    - id: '23.5'
+      node_type: Statement
+      text: give your NMC Pin when any reasonable request for it is made
+  - id: '24'
+    node_type: Area
+    text: Respond to any complaints made against you professionally
+    children:
+    - id: '24.1'
+      node_type: Statement
+      text: never allow someone's complaint to affect the care that is provided to them
+    - id: '24.2'
+      node_type: Statement
+      text: use all complaints as a form of feedback and an opportunity for reflection and learning to improve practice
+  - id: '25'
+    node_type: Area
+    text: Provide leadership to make sure people'ss wellbeing is protected and to improve their experiences of the health and care system
+    source_notes:
+    - "Throughout their career, all our registrants will have opportunities to demonstrate leadership qualities, regardless of whether or not they occupy formal leadership positions."
+    children:
+    - id: '25.1'
+      node_type: Statement
+      text: identify priorities, manage time, staff and resources effectively and deal with risk to make sure that the quality of care or service you deliver is maintained and improved, putting the needs of those receiving care or services first
+    - id: '25.2'
+      node_type: Statement
+      text: support any staff you may be responsible for to follow the Code at all times. They must have the knowledge, skills and competence for safe practice; and understand how to raise any concerns linked to any circumstances where the Code has, or could be, broken

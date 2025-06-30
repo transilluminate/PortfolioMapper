@@ -1,0 +1,68 @@
+roles:
+
+  # --- Student / Pre-Registration Roles ---
+
+  pre_reg_nurse:
+    display_name: "Pre-registration Nurse"
+    description: "For student nurses undertaking their undergraduate nursing degree."
+    allowed_framework_codes:
+      - "NMC-*"
+    default_academic_level: "developing"
+
+  pre_reg_ahp:
+    display_name: "Pre-registration AHP (e.g., Paramedic)"
+    description: "For student Allied Health Professionals undertaking their degree."
+    allowed_framework_codes:
+      - "HCPC-*"
+    default_academic_level: "developing"
+
+  # --- Qualified Role ---
+  
+  qualified_nurse:
+    display_name: "Qualified Nurse"
+    description: "For qualified nurses"
+    allowed_framework_codes:
+      - "NMC-*"
+    default_academic_level: "graduate"
+
+  pre_reg_ahp:
+    display_name: "Qualified AHP (e.g., Paramedic)"
+    description: "For qualified Allied Health Professionals"
+    allowed_framework_codes:
+      - "HCPC-*"
+    default_academic_level: "graduate"
+
+  # --- Advanced Practice Roles ---
+
+  student_ap:
+    display_name: "Trainee Advanced Practitioner"
+    description: "For practitioners undertaking a formal Advanced Practice MSc programme."
+    allowed_framework_codes:
+      - "HCPC-2023-*"
+      - "NMC-2018-Code"
+      - "RPS-2021-Prescribing"
+      - "CfAP-2025-Advanced_Generic"
+    default_academic_level: "advanced"
+  
+  qualified_ap:
+    display_name: "Qualified Advanced Practitioner"
+    description: "For practitioners who have completed an AP programme and are working in an advanced role."
+    allowed_framework_codes:
+      - "HCPC-2023-*"
+      - "NMC-2018-Code"
+      - "RPS-2021-Prescribing"
+      - "CfAP-2025-Advanced_Generic"
+      - "CfAP-2023-Consultant_Generic"
+    default_academic_level: "masters"
+
+  # --- Consultant / Senior Roles ---
+
+  consultant_aspirant:
+    display_name: "Consultant Practitioner / Aspirant"
+    description: "For senior practitioners working at or towards consultant-level practice."
+    allowed_framework_codes:
+      # remove the NMC / HPCP base, as these are typically too basic
+      - "RPS-2021-Prescribing"
+      - "CfAP-2025-Advanced_Generic"
+      - "CfAP-2023-Consultant_Generic"
+    default_academic_level: "doctoral"

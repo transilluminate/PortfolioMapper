@@ -1,0 +1,140 @@
+metadata:
+  organisation: NHS England, Centre for Advancing Practice (CfAP)
+  title: Multi-professional framework for advanced clinical practice in England
+  date: "2025"
+  abbreviation: "CfAP Advanced: Generic (2025)"
+  version: "1"
+  dependencies: []
+  source_url: "https://advanced-practice.hee.nhs.uk/mpf2025/capabilities/"
+
+structure:
+- id: clinical_practice
+  node_type: Domain
+  text: Clinical Practice
+  children:
+  - id: '1.1'
+    node_type: Statement
+    text: practise in compliance with their respective code of professional conduct and within their scope of practice, being responsible and accountable for their decisions, actions, and omissions at this level of practice
+  - id: '1.2'
+    node_type: Statement
+    text: demonstrate a critical understanding of their broadened level of responsibility and autonomy and the limits of own competence and professional scope of practice, including when working with complexity, risk, uncertainty, and incomplete information
+  - id: '1.3'
+    node_type: Statement
+    text: act on professional judgement about when to seek help, demonstrating critical reflection on own practice, self-awareness, emotional intelligence and openness to change
+  - id: '1.4'
+    node_type: Statement
+    text: work in partnership with individuals, families, and carers, using a range of assessment methods as appropriate (for example history-taking; holistic assessment; identifying risk factors; mental health assessments; requesting, undertaking, and/or interpreting diagnostic tests; and conducting health needs assessments)
+  - id: '1.5'
+    node_type: Statement
+    text: demonstrate effective communication skills, supporting people in making decisions, planning care, or seeking to make positive changes, using NHS England's Framework to promote person-centred approaches in health and care
+  - id: '1.6'
+    node_type: Statement
+    text: use expertise and decision-making skills to inform clinical reasoning approaches when dealing with differentiated and undifferentiated individual presentations and complex situations, synthesising information from multiple sources to make appropriate, evidence-based judgements and diagnoses
+  - id: '1.7'
+    node_type: Statement
+    text: initiate, evaluate and modify a range of interventions which may include prescribing medicines, therapies, lifestyle advice and care
+  - id: '1.8'
+    node_type: Statement
+    text: exercise professional judgement to manage risk appropriately, especially where there may be complex and unpredictable events and supporting teams to do likewise to ensure safety of individuals, families, and carers
+  - id: '1.9'
+    node_type: Statement
+    text: work collaboratively with an appropriate range of multi-agency and inter-professional resources, developing, maintaining, and evaluating links to manage risk and issues across organisations and settings
+  - id: '1.10'
+    node_type: Statement
+    text: act as a clinical role model and advocate for developing and delivering care that is responsive to changing requirements, informed by an understanding of local population health needs, agencies and networks
+  - id: '1.11'
+    node_type: Statement
+    text: evidence the underpinning subject-specific competencies \u2013 that is, the knowledge, skills and behaviours relevant to the role setting and scope and demonstrate application of the capabilities to these, in an approach that is appropriate to the individual role, setting and scope
+- id: leadership_and_management
+  node_type: Domain
+  text: Leadership and Management
+  children:
+  - id: '2.1'
+    node_type: Statement
+    text: demonstrate and role model inclusive attitudes and behaviours to pro-actively initiate and develop relationships, fostering clarity of roles within teams, to encourage productive working
+  - id: '2.2'
+    node_type: Statement
+    text: role model the values of their organisation/place of work, demonstrating a person-centred approach to service delivery and development
+  - id: '2.3'
+    node_type: Statement
+    text: evaluate own practice and participate in multidisciplinary service and team evaluation, demonstrating the impact of advanced clinical practice on service function and effectiveness and quality (outcomes of care, experience and safety)
+  - id: '2.4'
+    node_type: Statement
+    text: actively engage in peer review to inform own and other's practice formulating and implementing strategies to act on learning and make improvements
+  - id: '2.5'
+    node_type: Statement
+    text: lead new practice and service redesign solutions in response to feedback, evaluation and need, working across boundaries and broadening sphere of influence
+  - id: '2.6'
+    node_type: Statement
+    text: actively seek feedback and involvement from individuals, families, carers, communities and colleagues in the co-production of service improvements
+  - id: '2.7'
+    node_type: Statement
+    text: critically apply advanced clinical expertise in appropriate faciliatory ways to provide consultancy across professional and service boundaries, influencing clinical practice to enhance quality, reduce unwarranted variation and promote the sharing and adoption of best practice
+  - id: '2.8'
+    node_type: Statement
+    text: demonstrate team leadership, resilience and determination, managing situations that are unfamiliar, complex, or unpredictable and seeking to build confidence in others
+  - id: '2.9'
+    node_type: Statement
+    text: continually develop practice in response to changing population health need, engaging in horizon scanning for future developments (such as impacts of genomics, new treatments and changing social challenges)
+  - id: '2.10'
+    node_type: Statement
+    text: demonstrate receptiveness to challenge, and preparedness to constructively challenge others, escalating concerns that affect individuals', families' carers', communities' and colleagues' safety and well-being when necessary
+  - id: '2.11'
+    node_type: Statement
+    text: negotiate an individual scope of practice within legal, ethical, professional and organisational policies, governance and procedures, with a focus on managing risk and upholding safety
+- id: education
+  node_type: Domain
+  text: Education
+  children:
+  - id: '3.1'
+    node_type: Statement
+    text: critically assess and address own learning needs, negotiating a personal development plan that reflects the breadth of ongoing professional development across the 4 pillars of advanced practice
+  - id: '3.2'
+    node_type: Statement
+    text: engage in self-directed learning, critically reflecting to maximise clinical skills and knowledge, as well as own potential to lead and develop both care and services
+  - id: '3.3'
+    node_type: Statement
+    text: engage with, appraise and respond to individuals' motivation, development stage and capacity, working collaboratively to support health literacy and empower individuals to participate in decisions about their care and to maximise their health and wellbeing
+  - id: '3.4'
+    node_type: Statement
+    text: advocate for and contribute to a culture of organisational learning to inspire future and existing staff
+  - id: '3.5'
+    node_type: Statement
+    text: facilitate collaboration of the wider team and support peer review processes to identify individual and team learning
+  - id: '3.6'
+    node_type: Statement
+    text: identify further developmental needs for the individual and the wider team and supporting them to address these
+  - id: '3.7'
+    node_type: Statement
+    text: supporting the wider team to build capacity and capability through work-based and interprofessional learning, and the application of learning to practice
+  - id: '3.8'
+    node_type: Statement
+    text: act as a role model, educator, supervisor, coach and mentor, seeking to instil and develop the confidence of others
+- id: research
+  node_type: Domain
+  text: Research
+  children:
+  - id: '4.1'
+    node_type: Statement
+    text: critically engage in research activity, adhering to good research practice guidance, so that evidence-based strategies are developed and applied to enhance quality, safety, productivity, and value for money
+  - id: '4.2'
+    node_type: Statement
+    text: evaluate and audit own and others' clinical practice, selecting and applying valid, reliable methods, then acting on the findings
+  - id: '4.3'
+    node_type: Statement
+    text: critically appraise and synthesise the outcome of relevant research, evaluation, and audit, using the results to underpin own practice and to inform that of others
+  - id: '4.4'
+    node_type: Statement
+    text: take a critical approach to identify gaps in the evidence base and its application to practice, alerting appropriate individuals and organisations to these and how they might be addressed in a safe and pragmatic way
+  - id: '4.5'
+    node_type: Statement
+    text: actively identify potential need for further research to strengthen evidence for best practice; this may involve acting as an educator, leader, innovator and contributor to research activity and seeking out and applying for research funding
+  - id: '4.6'
+    node_type: Statement
+    text: develop and implement robust governance systems and systematic documentation processes, keeping the need for modifications under critical review
+  - id: '4.7'
+    node_type: Statement
+    text: disseminate best practice research findings and quality improvement projects through appropriate media and fora (such as presentations and peer review research publications)
+  - id: '4.8'
+    node_type: Statement
+    text: facilitate collaborative links between clinical practice and research through proactive engagement, networking with academic, clinical, and other active researchers

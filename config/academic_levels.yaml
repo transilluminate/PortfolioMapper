@@ -1,0 +1,30 @@
+academic_levels:
+  foundational:
+    # Foundational (Knows): What happened?
+    name: "Foundational (Year 1 Student)"
+    description: "The reflection should focus on description and awareness. The user should accurately describe what happened, what they did or observed, and demonstrate an understanding of the basic rules, safety principles, and procedures involved. The key evidence is accurately recounting events and showing awareness of the relevant standards."
+
+  developing:
+    # Developing (Knows How): How did I apply what I know?
+    name: "Developing (Mid-to-late stage Student)"
+    description: "The reflection should move from description to application and early analysis. The user should not only describe what happened, but also explain how they applied their knowledge and skills. Look for connections being made between theory and practice, and early attempts to analyze why things happened the way they did. The key evidence is explaining the application of knowledge."
+
+  graduate:
+    # Graduate (Shows How): Did my application work?
+    name: "Graduate (Newly Qualified Practitioner)"
+    description: "The reflection should demonstrate competent practice and evaluation. The user should provide clear examples of their independent decision-making and actions. They should evaluate the effectiveness of their actions and the outcomes for the patient or situation. The key evidence is evaluating outcomes and taking responsibility for decisions."
+
+  advanced:
+    # Advanced (Does): How did I handle the messiness and complexity?
+    name: "Advanced Practice (Managing Complexity)"
+    description: "The reflection must show analysis of complexity and management of uncertainty. The user should explore the nuances of the situation, including managing competing priorities, dealing with ambiguity, and justifying their approach in complex or non-standard scenarios. The key evidence is analyzing complex factors and justifying decisions in ambiguous situations."
+
+  masters:
+    # Masters (Critiques): How does my action stack up against the evidence and the system?
+    name: "Masters Level (Evidence & Critique)"
+    description: "The reflection must demonstrate critical analysis and synthesis with evidence. The user must go beyond the single event to critique their own practice and the systems around them. They should synthesize information from multiple sources, explicitly link their actions to the evidence base (literature, guidelines), and critically evaluate the evidence itself. The key evidence is critiquing practice and integrating external evidence."
+
+  doctoral:
+    # Doctoral (Creates): What new idea does this experience give me?
+    name: "Doctoral Level (Generating Knowledge)"
+    description: "The reflection must show originality and contribution to knowledge. The user should be challenging existing assumptions, identifying gaps in knowledge or practice, and proposing new models or ways of thinking. The reflection should not just analyze an event, but use it as a springboard to generate new insights that could influence practice on a wider scale. The key evidence is generating novel insights or challenging established paradigms."

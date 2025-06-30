@@ -1,0 +1,21 @@
+# Sample Reflection: Managing a Suspected UTI in an Elderly Patient
+
+## What?
+
+A 78-year-old female patient presented to the clinic with a two-day history of increased urinary frequency, urgency, and new-onset confusion, as reported by her daughter. I conducted a full consultation, taking a detailed history which included checking for red flag symptoms of pyelonephritis, such as fever, loin pain, and nausea, all of which were absent. Her medication history revealed no allergies, and her renal function was stable on recent blood tests.
+
+A clinical assessment was performed, including vital signs which were all within normal limits. A urine dipstick test was positive for both nitrites and leukocytes.
+
+## So What?
+
+My initial working diagnosis was an uncomplicated lower urinary tract infection. However, I was mindful of the NICE guideline NG109, which cautions against the reliability of urine dipstick testing in women over 65 due to the high prevalence of asymptomatic bacteriuria. Relying solely on the dipstick could lead to unnecessary antibiotic prescribing.
+
+Therefore, the diagnosis was based on the clinical picture of a triad of symptoms (dysuria, frequency, and new-onset confusion) rather than the dipstick result alone. I discussed my findings with the patient and her daughter. We explored the options together: a delayed prescription to see if symptoms resolved, versus an immediate prescription. I explained the risks of untreated infection, including progression to urosepsis, versus the risks of antibiotic use, such as side effects and contributing to antimicrobial resistance.
+
+The patient's daughter was particularly concerned about the confusion, and after our discussion, they expressed a preference for immediate treatment. I agreed this was appropriate. I consulted our local antimicrobial formulary and prescribed a 3-day course of nitrofurantoin, checking for contraindications related to her eGFR. This decision was made within my scope of practice as a trainee, and I briefly discussed the management plan with my clinical supervisor, who concurred with the approach. This confirmed my understanding of my professional accountability in this situation.
+
+## Now What?
+
+I provided clear safety-netting advice, instructing the daughter to seek urgent review if her mother developed a fever, became more unwell, or if the confusion did not start to improve within 48 hours. I also documented the consultation, my clinical reasoning, and the shared decision-making process comprehensively in the patient's record.
+
+This case has reinforced the importance of critically appraising diagnostic tools in the context of the individual patient and current evidence. It highlighted a potential system weakness in our clinic, where dipsticks are sometimes used as a standalone diagnostic for UTIs in this cohort. I plan to raise this for discussion at our next clinical governance meeting to see if we can develop a clearer protocol. For my own development, I will create a personal summary of the latest evidence on managing UTIs in the elderly to support my future prescribing decisions.

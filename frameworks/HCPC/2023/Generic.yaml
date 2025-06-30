@@ -1,0 +1,348 @@
+metadata:
+  organisation: Health & Care Professions Council (HCPC)
+  title: Generic standards, which apply to all professions
+  date: "2023"
+  abbreviation: HCPC Generic (2023)
+  version: "1"
+  dependencies: []
+  display_in_ui: false
+  source_url: "https://www.hcpc-uk.org/standards/standards-of-proficiency/"
+
+structure:
+- id: '1'
+  node_type: Domain
+  text: Practise safely and effectively within their scope of practice
+  children:
+  - id: '1.1'
+    node_type: Statement
+    text: identify the limits of their practice and when to seek advice or refer to another professional or service
+  - id: '1.2'
+    node_type: Statement
+    text: recognise the need to manage their own workload and resources safely and effectively, including managing the emotional burden that comes with working in a pressured environment
+  - id: '1.3'
+    node_type: Statement
+    text: keep their skills and knowledge up to date and understand the importance of continuing professional development throughout their career
+- id: '2'
+  node_type: Domain
+  text: Practise within the legal and ethical boundaries of their profession
+  children:
+  - id: '2.1'
+    node_type: Statement
+    text: maintain high standards of personal and professional conduct
+  - id: '2.2'
+    node_type: Statement
+    text: promote and protect the service user's interests at all times
+  - id: '2.3'
+    node_type: Statement
+    text: understand the importance of safeguarding by actively looking for signs of abuse, demonstrating understanding of relevant safeguarding processes and engaging in these processes where necessary
+  - id: '2.4'
+    node_type: Statement
+    text: understand what is required of them by the Health and Care Professions Council, including, but not limited to, the standards of conduct, performance and ethics
+  - id: '2.5'
+    node_type: Statement
+    text: respect and uphold the rights, dignity, values and autonomy of service users, including their role in the assessment, diagnostic, treatment and/or therapeutic process
+  - id: '2.6'
+    node_type: Statement
+    text: recognise that relationships with service users, carers and others should be based on mutual respect and trust, maintaining high standards of care in all circumstances
+  - id: '2.7'
+    node_type: Statement
+    text: understand the importance of and be able to obtain valid consent, which is voluntary and informed, has due regard to capacity, is proportionate to the circumstances and is appropriately documented
+  - id: '2.8'
+    node_type: Statement
+    text: understand the importance of capacity in the context of delivering care and treatment
+  - id: '2.9'
+    node_type: Statement
+    text: understand the scope of a professional duty of care, and exercise that duty
+  - id: '2.10'
+    node_type: Statement
+    text: understand and apply legislation, policies and guidance relevant to their profession and scope of practice
+  - id: '2.11'
+    node_type: Statement
+    text: recognise the power imbalance that comes with being a healthcare professional, and ensure they do not abuse this for personal gain
+- id: '3'
+  node_type: Domain
+  text: Look after their health and wellbeing, seeking appropriate support where necessary
+  children:
+  - id: '3.1'
+    node_type: Statement
+    text: identify anxiety and stress in themselves and recognise the potential impact on their practice
+  - id: '3.2'
+    node_type: Statement
+    text: understand the importance of their own mental and physical health and wellbeing strategies in maintaining fitness to practise
+  - id: '3.3'
+    node_type: Statement
+    text: understand how to take appropriate action if their health may affect their ability to practise safely and effectively, including seeking help and support when necessary
+  - id: '3.4'
+    node_type: Statement
+    text: develop and adopt clear strategies for physical and mental self-care and self-awareness, to maintain a high standard of professional effectiveness and a safe working environment
+- id: '4'
+  node_type: Domain
+  text: Practise as an autonomous professional, exercising their own professional
+    judgement
+  children:
+  - id: '4.1'
+    node_type: Statement
+    text: recognise that they are personally responsible for, and must be able to justify, their decisions and actions
+  - id: '4.2'
+    node_type: Statement
+    text: use their skills, knowledge and experience, and the information available to them, to make informed decisions and/or take action where necessary
+  - id: '4.3'
+    node_type: Statement
+    text: make reasoned decisions to initiate, continue, modify or cease treatment, or the use of techniques or procedures, and record the decisions and reasoning appropriately
+  - id: '4.4'
+    node_type: Statement
+    text: make and receive appropriate referrals, where necessary
+  - id: '4.5'
+    node_type: Statement
+    text: exercise personal initiative
+  - id: '4.6'
+    node_type: Statement
+    text: demonstrate a logical and systematic approach to problem-solving
+  - id: '4.7'
+    node_type: Statement
+    text: use research, reasoning and problem-solving skills when determining appropriate actions
+  - id: '4.8'
+    node_type: Statement
+    text: understand the need for active participation in training, supervision and mentoring in supporting high standards of practice, and personal and professional conduct, and the importance of demonstrating this in practice
+- id: '5'
+  node_type: Domain
+  text: Recognise the impact of culture, equality and diversity on practice and practise in a non-discriminatory and inclusive manner
+  children:
+  - id: '5.1'
+    node_type: Statement
+    text: respond appropriately to the needs of all groups and individuals in practice, recognising that this can be affected by difference of any kind including, but not limited to, protected characteristics, intersectional experiences and cultural differences
+  - id: '5.2'
+    node_type: Statement
+    text: understand equality legislation and apply it to their practice
+  - id: '5.3'
+    node_type: Statement
+    text: recognise the potential impact of their own values, beliefs and personal biases (which may be unconscious) on practice and take personal action to ensure all service users and carers are treated appropriately with respect and dignity
+  - id: '5.4'
+    node_type: Statement
+    text: understand the duty to make reasonable adjustments in practice and be able to make and support reasonable adjustments in their and others' practice
+  - id: '5.5'
+    node_type: Statement
+    text: recognise the characteristics and consequences of barriers to inclusion, including for socially isolated groups
+  - id: '5.6'
+    node_type: Statement
+    text: actively challenge these barriers, supporting the implementation of change wherever possible
+  - id: '5.7'
+    node_type: Statement
+    text: recognise that regard to equality, diversity and inclusion needs to be embedded in the application of all HCPC standards, across all areas of practice
+- id: '6'
+  node_type: Domain
+  text: Understand the importance of and maintain confidentiality
+  children:
+  - id: '6.1'
+    node_type: Statement
+    text: adhere to the professional duty of confidentiality and understand when disclosure may be required
+  - id: '6.2'
+    node_type: Statement
+    text: understand the principles of information and data governance and be aware of the safe and effective use of health, social care and other relevant information
+  - id: '6.3'
+    node_type: Statement
+    text: recognise and respond in a timely manner to situations where it is necessary to share information to safeguard service users, carers and/or the wider public
+  - id: '6.4'
+    node_type: Statement
+    text: understand the need to ensure that confidentiality is maintained in all situations in which service users rely on additional communication support (such as interpreters or translators)
+  - id: '6.5'
+    node_type: Statement
+    text: recognise that the concepts of confidentiality and informed consent extend to all mediums, including illustrative clinical records such as photography, video and audio recordings and digital platforms
+- id: '7'
+  node_type: Domain
+  text: Communicate effectively
+  children:
+  - id: '7.1'
+    node_type: Statement
+    text: use effective and appropriate verbal and non-verbal skills to communicate with service users, carers, colleagues and others
+  - id: '7.2'
+    node_type: Statement
+    text: communicate in English to the required standard for their profession (equivalent to level 7 of the International English Language Testing System, with no element below 6.5)
+  - id: '7.3'
+    node_type: Statement
+    text: understand the characteristics and consequences of verbal and nonverbal communication and recognise how these can be affected by difference of any kind, including, but not limited to, protected characteristics, intersectional experiences and cultural differences
+  - id: '7.4'
+    node_type: Statement
+    text: work with service users and/or their carers to facilitate the service user's preferred role in decision-making, and provide service users and carers with the information they may need where appropriate
+  - id: '7.5'
+    node_type: Statement
+    text: modify their own means of communication to address the individual communication needs and preferences of service users and carers, and remove any barriers to communication where possible
+  - id: '7.6'
+    node_type: Statement
+    text: understand the need to support the communication needs of service users and carers, such as through the use of an appropriate interpreter
+  - id: '7.7'
+    node_type: Statement
+    text: use information, communication and digital technologies appropriate to their practice
+  - id: '7.8'
+    node_type: Statement
+    text: understand the need to provide service users or people acting on their behalf with the information necessary, in accessible formats, to enable them to make informed decisions
+- id: '8'
+  node_type: Domain
+  text: Work appropriately with others
+  children:
+  - id: '8.1'
+    node_type: Statement
+    text: work in partnership with service users, carers, colleagues and others
+  - id: '8.2'
+    node_type: Statement
+    text: recognise the principles and practices of other health and care professionals and systems and how they interact with their profession
+  - id: '8.3'
+    node_type: Statement
+    text: understand the need to build and sustain professional relationships as both an autonomous practitioner and collaboratively as a member of a team
+  - id: '8.4'
+    node_type: Statement
+    text: contribute effectively to work undertaken as part of a multidisciplinary team
+  - id: '8.5'
+    node_type: Statement
+    text: identify anxiety and stress in service users, carers and colleagues, adapting their practice and providing support where appropriate
+  - id: '8.6'
+    node_type: Statement
+    text: understand the qualities, behaviours and benefits of leadership
+  - id: '8.7'
+    node_type: Statement
+    text: recognise that leadership is a skill all professionals can demonstrate
+  - id: '8.8'
+    node_type: Statement
+    text: identify their own leadership qualities, behaviours and approaches, taking into account the importance of equality, diversity and inclusion
+  - id: '8.9'
+    node_type: Statement
+    text: demonstrate leadership behaviours appropriate to their practice
+  - id: '8.10'
+    node_type: Statement
+    text: act as a role model for others
+  - id: '8.11'
+    node_type: Statement
+    text: promote and engage in the learning of others
+- id: '9'
+  node_type: Domain
+  text: Maintain records appropriately
+  children:
+  - id: '9.1'
+    node_type: Statement
+    text: keep full, clear and accurate records in accordance with applicable legislation, protocols and guidelines
+  - id: '9.2'
+    node_type: Statement
+    text: manage records and all other information in accordance with applicable legislation, protocols and guidelines
+  - id: '9.3'
+    node_type: Statement
+    text: use digital record keeping tools, where required
+- id: '10'
+  node_type: Domain
+  text: Reflect on and review practice
+  children:
+  - id: '10.1'
+    node_type: Statement
+    text: understand the value of reflective practice and the need to record the outcome of such reflection to support continuous improvement
+  - id: '10.2'
+    node_type: Statement
+    text: recognise the value of multi-disciplinary reviews, case conferences and other methods of review
+- id: '11'
+  node_type: Domain
+  text: Assure the quality of their practice
+  children:
+  - id: '11.1'
+    node_type: Statement
+    text: engage in evidence-based practice
+  - id: '11.2'
+    node_type: Statement
+    text: gather and use feedback and information, including qualitative and quantitative data, to evaluate the response of service users to their care
+  - id: '11.3'
+    node_type: Statement
+    text: monitor and systematically evaluate the quality of practice, and maintain an effective quality management and quality assurance process working towards continual improvement
+  - id: '11.4'
+    node_type: Statement
+    text: participate in quality management, including quality control, quality assurance, clinical governance and the use of appropriate outcome measures
+  - id: '11.5'
+    node_type: Statement
+    text: evaluate care plans or intervention plans using recognised and appropriate outcome measures in conjunction with the service user and revise the plans as necessary
+  - id: '11.6'
+    node_type: Statement
+    text: recognise the value of gathering and using data for quality assurance and improvement programmes
+- id: '12'
+  node_type: Domain
+  text: Understand and apply the key concepts of the knowledge base relevant to their profession
+  children:
+  - id: '12.1'
+    node_type: Statement
+    text: understand the structure and function of the human body, together with knowledge of physical and mental health, disease, disorder and dysfunction relevant to their profession
+  - id: '12.2'
+    node_type: Statement
+    text: demonstrate awareness of the principles and applications of scientific enquiry, including the evaluation of treatment efficacy and the research process
+  - id: '12.3'
+    node_type: Statement
+    text: recognise the role(s) of other professions in health and social care and understand how they may relate to the role of paramedic
+  - id: '12.4'
+    node_type: Statement
+    text: understand the structure and function of health and social care systems and services in the UK
+- id: '13'
+  node_type: Domain
+  text: Draw on appropriate knowledge and skills to inform practice
+  children:
+  - id: '13.1'
+    node_type: Statement
+    text: change their practice as needed to take account of new developments, technologies and changing contexts
+  - id: '13.2'
+    node_type: Statement
+    text: gather appropriate information
+  - id: '13.3'
+    node_type: Statement
+    text: analyse and critically evaluate the information collected
+  - id: '13.4'
+    node_type: Statement
+    text: select and use appropriate assessment techniques and equipment
+  - id: '13.5'
+    node_type: Statement
+    text: undertake and record a thorough, sensitive and detailed assessment
+  - id: '13.6'
+    node_type: Statement
+    text: undertake or arrange investigations as appropriate
+  - id: '13.7'
+    node_type: Statement
+    text: conduct appropriate assessment or monitoring procedures, treatment, therapy or other actions safely and effectively
+  - id: '13.8'
+    node_type: Statement
+    text: recognise a range of research methodologies relevant to their role
+  - id: '13.9'
+    node_type: Statement
+    text: recognise the value of research to the critical evaluation of practice
+  - id: '13.10'
+    node_type: Statement
+    text: critically evaluate research and other evidence to inform their own practice
+  - id: '13.11'
+    node_type: Statement
+    text: engage service users in research as appropriate
+- id: '14'
+  node_type: Domain
+  text: Establish and maintain a safe practice environment
+  children:
+  - id: '14.1'
+    node_type: Statement
+    text: understand the need to maintain the safety of themself and others, including service users, carers and colleagues
+  - id: '14.2'
+    node_type: Statement
+    text: demonstrate awareness of relevant health and safety legislation and comply with all local operational procedures and policies
+  - id: '14.3'
+    node_type: Statement
+    text: work safely, including being able to select appropriate hazard control and risk management, reduction or elimination techniques, in a safe manner and in accordance with health and safety legislation
+  - id: '14.4'
+    node_type: Statement
+    text: select appropriate personal protective equipment and use it correctly
+  - id: '14.5'
+    node_type: Statement
+    text: establish safe environments for practice, which appropriately manage risk
+- id: '15'
+  node_type: Domain
+  text: Promote health and prevent ill health
+  children:
+  - id: '15.1'
+    node_type: Statement
+    text: understand the role of their profession in health promotion, health education and preventing ill health
+  - id: '15.2'
+    node_type: Statement
+    text: understand how social, economic and environmental factors (wider determinants of health) can influence a person's health and wellbeing
+  - id: '15.3'
+    node_type: Statement
+    text: empower and enable individuals (including service users and colleagues) to play a part in managing their own health
+  - id: '15.4'
+    node_type: Statement
+    text: engage in occupational health, including being aware of immunisation requirements

@@ -1,0 +1,124 @@
+metadata:
+  organisation: Health & Care Professions Council (HCPC)
+  title: Profession-specific standards for Paramedics
+  date: "2023"
+  abbreviation: HCPC Paramedic (2023)
+  version: "1"
+  dependencies: [HCPC-2023-Generic]
+  source_url: "https://www.hcpc-uk.org/standards/standards-of-proficiency/paramedics/"
+
+structure:
+- id: '1'
+  node_type: Domain
+  text: Practise safely and effectively within their scope of practice
+  children:
+  - id: '1.4'
+    node_type: Statement
+    text: use a range of integrated skills and self-awareness to manage clinical challenges independently and effectively in unfamiliar and unpredictable circumstances or situations
+  - id: '1.5'
+    node_type: Statement
+    text: work safely in challenging and unpredictable environments, including taking appropriate action to assess and manage risks to themselves and service users and carers
+- id: '2'
+  node_type: Domain
+  text: Practise within the legal and ethical boundaries of their profession
+  children:
+  - id: '2.12'
+    node_type: Statement
+    text: practise in accordance with current legislation governing the use of medicines by paramedics
+  - id: '2.13'
+    node_type: Statement
+    text: understand the criteria required for making a self-referral and when to proceed
+- id: '4'
+  node_type: Domain
+  text: Practise as an autonomous professional, exercising their own professional judgement
+  children:
+  - id: '4.9'
+    node_type: Statement
+    text: use a range of integrated skills and self-awareness to manage clinical challenges effectively in unfamiliar and unpredictable circumstances or situations
+  - id: '4.10'
+    node_type: Statement
+    text: make decisions about the most appropriate care pathways for service users and refer service users appropriately
+- id: '12'
+  node_type: Domain
+  text: Understand and apply the key concepts of the knowledge base relevant to their profession
+  children:
+  - id: '12.5'
+    node_type: Statement
+    text: understand the theoretical basis of, and the variety of approaches to, assessment and intervention
+  - id: '12.6'
+    node_type: Statement
+    text: understand human anatomy and physiology and development across the lifespan, sufficient to recognise the nature and effects of injury or illness, and to conduct assessment and observation in order to form a differential diagnosis and establish service user management strategies
+  - id: '12.7'
+    node_type: Statement
+    text: "understand the following aspects of biological science: disease and trauma processes and how to apply this knowledge to develop appropriate treatment plans for the service user's care; how the application of paramedic practice may cause physiological and behavioural change; human anatomy and physiology, especially the dynamic relationships of human structure and function, and the musculoskeletal, cardiovascular, respiratory, digestive, endocrine, urinary, reproductive, integumentary and nervous systems; human growth and development across the lifespan; normal and altered anatomy and physiology throughout the human lifespan; relevant physiological parameters and how to interpret changes from the norm; the factors influencing individual variations in human ability and health function; the main classes of pathogenic microorganisms, the spread of infection and the use of universal precautions; and the main sequential stages of normal development, including cognitive, emotional and social measures of maturation through the human lifespan"
+  - id: '12.8'
+    node_type: Statement
+    text: "understand the following aspects of physical science: principles and theories of physics, biomechanics, electronics and ergonomics that can be applied to paramedic practice; understand scientific units of measurement acquired in clinical and healthcare practice and the principles of analysis and interpretation; the means by which the physical sciences can inform the understanding and analysis of information used to determine a diagnosis; the pathophysiological changes to normal homeostatic function and its implications; and the principles and application of measurement techniques based on biomechanics and electrophysiology"
+  - id: '12.9'
+    node_type: Statement
+    text: "understand the following aspects of sociological, health and behavioural science: how aspects of sociology, health and behavioural sciences are fundamental to the role of the paramedic in developing and maintaining effective relationships; and recognise how sociology can inform an understanding of physical and mental health, illness and healthcare in the context of paramedic practice"
+  - id: '12.10'
+    node_type: Statement
+    text: "understand the following aspects of clinical science: pathological changes and related clinical features of conditions encountered in emergency and urgent care and primary and community care; physiological, pharmacological, structural, behavioural and functional changes in service user presentation; principles of evaluation and research methodologies which enable the integration of theoretical perspectives and research evidence into the design and implementation of effective paramedic practice; the theoretical basis of assessment, clinical decision-making and appropriate treatment plans, along with the scientific evaluation of their effectiveness; and the theories supporting problem-solving and clinical reasoning"
+  - id: '12.11'
+    node_type: Statement
+    text: understand the pharmacological principles applied to healthcare which include pharmacodynamics and pharmacokinetics and apply to those medicines utilised by paramedics to treat service users. the role of pain management, its complexity and the importance of robust approaches using both pharmacological and nonpharmacological strategies; the analysis of polypharmacy, evaluating pharmacological interactions and the impact upon mental wellbeing and healthcare provision; and recognise adverse drug reactions and manage appropriately, including reporting as required
+  - id: '12.12'
+    node_type: Statement
+    text: understand human development and the main sequential stages of normal development, including cognitive, emotional and social measures of maturation through the human lifespan. recognise human growth and development including factors influencing individual variations in human ability and health status; evaluate how variation influences susceptibility to disease, injury and responses to treatment across the lifespan; understand the role of nutrition in promoting health and illness across the lifespan; and understand the fundamentals of genetics
+  - id: '12.13'
+    node_type: Statement
+    text: understand the effects of psychological factors on health and illness and the impact of culture on illness recognise the contribution of behavioural factors in health and illness; and understand the basic knowledge of the key theories of behavioural change to include the principles of cognitive behavioural therapy and motivational interviewing
+  - id: '12.14'
+    node_type: Statement
+    text: understand and evaluate social determinants of health, including inequality and factors contributing to the needs of different social groups, and the factors that influence an individual in health and illness. recognise how sociological, health and behavioural sciences are fundamental to the role of the paramedic in developing and maintaining effective relationships; and recognise how sociology can inform an understanding of physical and mental health, illness and healthcare in the context of paramedic practice
+- id: '13'
+  node_type: Domain
+  text: Draw on appropriate knowledge and skills to inform practice
+  children:
+  - id: '13.12'
+    node_type: Statement
+    text: know the theories and science that underpin the theory and principles of paramedic practice
+  - id: '13.13'
+    node_type: Statement
+    text: know the indications and contra-indications of using specific paramedic techniques in emergency and urgent care and primary and community care, including their limitations and modifications
+  - id: '13.14'
+    node_type: Statement
+    text: ensure decision-making is supported by effective safety-netting
+  - id: '13.15'
+    node_type: Statement
+    text: modify and adapt practice to meet the clinical needs of service users within the emergency and urgent care environment
+  - id: '13.16'
+    node_type: Statement
+    text: know how to select or modify approaches to meet the needs of service users, their relatives and carers, when presented in the emergency and urgent care environment
+  - id: '13.17'
+    node_type: Statement
+    text: formulate specific and appropriate management plans including the setting of appropriate timescales
+  - id: '13.18'
+    node_type: Statement
+    text: conduct a thorough and detailed physical examination of the service user, using appropriate skills to inform clinical reasoning and guide the formulation of a differential diagnosis across all age ranges
+  - id: '13.19'
+    node_type: Statement
+    text: use observation to gather information about the functional abilities of service users, how this affects the management of patients and the appropriate patient care pathways
+  - id: '13.20'
+    node_type: Statement
+    text: understand the need to consider the assessment of both the health and psychosocial care needs of service users and carers
+- id: '14'
+  node_type: Domain
+  text: Establish and maintain a safe practice environment
+  children:
+  - id: '14.6'
+    node_type: Statement
+    text: understand and be able to apply appropriate moving and handling techniques
+  - id: '14.7'
+    node_type: Statement
+    text: understand, and be prepared for, the responsibilities of the paramedic in responding to hazardous or major incidents, including public health emergencies
+  - id: '14.8'
+    node_type: Statement
+    text: establish and run a triage system
+  - id: '14.9'
+    node_type: Statement
+    text: understand the use and importance of effective communication in major incidents
+  - id: '14.10'
+    node_type: Statement
+    text: demonstrate an understanding of the need for business continuity, escalation and resilience plans
