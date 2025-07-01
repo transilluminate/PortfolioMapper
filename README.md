@@ -1,3 +1,5 @@
+[<img src="https://img.shields.io/badge/License_(for_the_NHS)-MIT-yellow">](https://github.com/transilluminate/PortfolioMapper?tab=readme-ov-file#-license) [<img src="https://img.shields.io/badge/License_(for_others)-Commercial-blue">](https://github.com/transilluminate/PortfolioMapper?tab=readme-ov-file#-license) 
+
 # 🗺️ AI-Powered Portfolio Mapper
 
 An intelligent Streamlit application designed to help healthcare professionals map their clinical reflections against multiple professional competency frameworks simultaneously using generative AI.
