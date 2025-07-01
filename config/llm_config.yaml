@@ -1,8 +1,15 @@
+# src/portfolio_mapper/config/llm_config.py
+
+# Copyright (c) Adrian Robinson 2025
+# This software is dual-licensed under the MIT License (for NHS use only)
+# and a Commercial License (for other use).
+# For commercial licensing inquiries, please contact adrian.j.robinson@gmail.com
+
 app:
   # Set to true to print detailed debugging information
   # (like prompts and raw AI responses) to the console.
   debug_mode: false
-  min_reflection_length: 150
+  min_reflection_length: 100
 
 gemini:
   # The specific model to use for the analysis.

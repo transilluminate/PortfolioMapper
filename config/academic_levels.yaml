@@ -1,3 +1,10 @@
+# src/portfolio_mapper/config/academic_levels.py
+
+# Copyright (c) Adrian Robinson 2025
+# This software is dual-licensed under the MIT License (for NHS use only)
+# and a Commercial License (for other use).
+# For commercial licensing inquiries, please contact adrian.j.robinson@gmail.com
+
 academic_levels:
   foundational:
     # Foundational (Knows): What happened?
@@ -16,7 +23,7 @@ academic_levels:
 
   advanced:
     # Advanced (Does): How did I handle the messiness and complexity?
-    name: "Advanced Practice (Managing Complexity)"
+    name: "Advanced (Managing Complexity)"
     description: "The reflection must show analysis of complexity and management of uncertainty. The user should explore the nuances of the situation, including managing competing priorities, dealing with ambiguity, and justifying their approach in complex or non-standard scenarios. The key evidence is analyzing complex factors and justifying decisions in ambiguous situations."
 
   masters:

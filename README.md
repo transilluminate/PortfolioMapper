@@ -131,7 +131,7 @@ The application is highly configurable via YAML files in the `config/` and `fram
 This software is provided under a dual-license model:
 
 -   **MIT License:** For use by the National Health Service (NHS) in the UK.
--   **Commercial License:** For any other commercial use, a separate license is required. Please contact adrian.j.robinson@gmail.com for inquiries.
+-   **Commercial License:** For any other use, a separate license is required. Please contact adrian.j.robinson@gmail.com for inquiries.
 
 ## 💥 Live Demonstration
 

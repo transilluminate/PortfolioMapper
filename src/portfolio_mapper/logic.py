@@ -2,7 +2,7 @@
 
 # Copyright (c) Adrian Robinson 2025
 # This software is dual-licensed under the MIT License (for NHS use only)
-# and a Commercial License (for other commercial use).
+# and a Commercial License (for other use).
 # For commercial licensing inquiries, please contact adrian.j.robinson@gmail.com
 
 """
@@ -16,6 +16,7 @@ from typing import Dict, List, Any
 from .models.framework import FrameworkFile, FrameworkNode
 from .models.config import Role, AcademicLevel, Prompt, AcademicLevelKey
 from .models.llm_response import LLMAnalysisResult
+from .models.safety import SafetyAnalysis
 
 def resolve_allowed_frameworks(
     role_obj: Role, 
@@ -102,7 +103,22 @@ def prune_framework_for_llm(framework: FrameworkFile, academic_level_key: Academ
     pruned_fw.structure = _recursive_prune_nodes(pruned_fw.structure, academic_level_key.value)
     return pruned_fw.model_dump(exclude_none=True)
 
-def assemble_prompt(
+def assemble_safety_prompt(
+    reflection_text: str,
+    prompt_obj: Prompt,
+) -> str:
+    """
+    Assembles the prompt for the initial safety and PII check.
+    """
+    print("--- Assembling Safety Check Prompt ---")
+    output_schema = json.dumps(SafetyAnalysis.model_json_schema(), indent=2)
+
+    return prompt_obj.template.format(
+        user_reflection_text=reflection_text,
+        output_schema=output_schema,
+    )
+
+def assemble_analysis_prompt(
     role_obj: Role,
     academic_level_obj: AcademicLevel,
     academic_level_key: AcademicLevelKey,
@@ -117,7 +133,7 @@ def assemble_prompt(
     """
     Assembles the final, massive prompt string to send to the LLM.
     """
-    print("--- Assembling Prompt ---")
+    print("--- Assembling Analysis Prompt ---")
 
     output_schema = json.dumps(LLMAnalysisResult.model_json_schema(), indent=2)
 
@@ -140,8 +156,8 @@ def assemble_prompt(
         print("------------------------------------\n")
 
     return prompt_obj.template.format(
-        tone=prompt_obj.tone,
-        persona=prompt_obj.persona,
+        tone=prompt_obj.tone or "",
+        persona=prompt_obj.persona or "",
         role_display_name=role_obj.display_name,
         academic_level_name=academic_level_obj.name,
         academic_level_description=academic_level_obj.description,
