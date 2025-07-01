@@ -163,7 +163,8 @@ def main():
     st.set_page_config(
         page_title="Portfolio Mapper AI",
         page_icon="🗺️",
-        layout="wide"
+        layout="wide",
+        initial_sidebar_state="expanded"
     )
 
     st.title("🗺️ AI-Powered Portfolio Mapper")
