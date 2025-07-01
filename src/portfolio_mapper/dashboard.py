@@ -5,7 +5,7 @@
 # and a Commercial License (for other use).
 # For commercial licensing inquiries, please contact adrian.j.robinson@gmail.com
 
-# NOTE: this is a todo for the future...
+# NOTE: this is a todo area for the future...
 
 import streamlit as st
 import pandas as pd

@@ -65,8 +65,6 @@ def call_gemini_for_safety_check(prompt: str, config_loader: "ConfigLoader") -> 
     try:
         if config_loader.llm_config.app.debug_mode:
             # --- DEBUGGING: Dump raw JSON response to console ---
-            # print("\n--- LLM CONFIG: RAW JSON ---", flush=True)
-            # print(generation_config.model_dump_json(), flush=True)
             print("\n--- LLM SAFETY INPUT: PROMPT ---", flush=True)
             print(prompt, flush=True)
             print("-------------------------------------\n", flush=True)

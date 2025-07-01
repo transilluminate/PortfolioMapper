@@ -25,6 +25,7 @@ from .ui_components import (
 )
 from .models.config import AcademicLevelKey
 
+# set humour level to 100%
 LOADING_MESSAGES = [
     "Reticulating splines...",
     "Calibrating the nonsense-o-meter...",

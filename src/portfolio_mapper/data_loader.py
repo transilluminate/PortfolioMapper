@@ -47,7 +47,7 @@ class FrameworkLoader:
     def load_all(self):
         """
         Main entry point to discover and load all frameworks.
-        This is the only method you'll need to call from the outside.
+        This is the only method we'll need to call from the outside.
         """
         print(f"--- Starting framework discovery in '{self.frameworks_dir}' ---")
         self._discover_and_load_files()

@@ -11,7 +11,7 @@ Application launcher script.
 This script allows the application to be run as a package, resolving
 relative import issues. Run this file with Streamlit from the project root:
 
-streamlit run run_app.py
+streamlit run portfolio_mapper.app.py
 """
 
 from src.portfolio_mapper.app import main

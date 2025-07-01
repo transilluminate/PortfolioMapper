@@ -35,5 +35,5 @@ def track_event(event_name: str, properties: Dict[str, Any] = None):
             s.commit()
     except Exception as e:
         # Fail silently to not disrupt the user experience.
-        # In a production environment, you might log this error elsewhere.
+        # In a production environment, we might log this error elsewhere.
         print(f"Analytics Error: Failed to track event '{event_name}'. Reason: {e}")

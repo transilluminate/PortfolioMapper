@@ -45,6 +45,7 @@ PortfolioMapper/
 │       ├── reporting.py        # Generates PDF reports
 │       ├── state_manager.py    # Centralizes all session state logic
 │       ├── ui_components.py    # Contains all UI rendering functions
+│       ├── analytics.py        # Optional usage logging (anonymous)
 │       └── models/             # Pydantic models for data validation
 │           └── ...
 └── portfolio_mapper.app.py     # The application launcher script
@@ -58,6 +59,7 @@ PortfolioMapper/
 -   **`reporting.py`**: Contains all logic for generating downloadable files, such as the PDF and CSV reports.
 -   **`state_manager.py`**: Centralizes all Streamlit session state initialization and callback logic.
 -   **`ui_components.py`**: Contains all the functions responsible for rendering the Streamlit UI, keeping the view logic separate from the application flow.
+-   **`analytics.py`**: Sends anonymous usage data to an external Supabase database.
 -   **`models/`**: A sub-package containing all Pydantic models, which provide robust data validation and type-safety for all configuration and API response data.
 
 ## 🧠 Key Concepts

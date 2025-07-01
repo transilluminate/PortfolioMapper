@@ -206,7 +206,7 @@ def render_results(framework_library: Dict[str, FrameworkFile]):
 
     st.header("💡 Suggested Matching Competencies")
     if analysis_result.assessed_competencies:
-        # Sort competencies by strength as a fallback, though the prompt asks the LLM to do this.
+        # Sort competencies by strength
         sorted_competencies = sorted(
             analysis_result.assessed_competencies, 
             key=lambda c: c.match_strength, 

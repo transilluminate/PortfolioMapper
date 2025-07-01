@@ -68,7 +68,6 @@ def _recursive_prune_nodes(nodes: List[FrameworkNode], academic_level_key: str) 
             if node_copy.source_notes is None:
                 node_copy.source_notes = []
 
-            # As per user suggestion, listify the child nodes to make them more distinct for the LLM.
             if descendant_leaf_nodes:
                 # Add a clear introductory note.
                 node_copy.source_notes.append("This principle is demonstrated by evidence of the following points:")

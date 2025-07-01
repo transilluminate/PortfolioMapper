@@ -23,7 +23,8 @@ def initialize_session_state():
         "pii_warning_acknowledged": False,
         "last_analysis_reflection": None,
         "last_analysis_frameworks": None,
-        "analysis_just_completed": False, # Prevents stale on_change callbacks from wiping results
+        # Prevents stale on_change callbacks from wiping results
+        "analysis_just_completed": False, 
     }
     for key, value in state_defaults.items():
         if key not in st.session_state:
