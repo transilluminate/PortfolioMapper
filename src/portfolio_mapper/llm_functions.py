@@ -11,6 +11,7 @@ from typing import Optional, TYPE_CHECKING
 from .models.llm_response import LLMAnalysisResult
 from .models.safety import SafetyAnalysis
 from pydantic import ValidationError
+from google.api_core import exceptions as google_exceptions
 
 # Use a forward reference for the type hint to avoid a circular import
 if TYPE_CHECKING:
@@ -60,16 +61,24 @@ def call_gemini_for_safety_check(prompt: str, config_loader: "ConfigLoader") -> 
     
     generation_config = genai.types.GenerationConfig(**gen_config_dict)
 
-    print("--- Calling Gemini API for Safety Check (REAL) ---")
+    print("--- Calling Gemini API for Safety Check (REAL) ---", flush=True)
     try:
+        if config_loader.llm_config.app.debug_mode:
+            # --- DEBUGGING: Dump raw JSON response to console ---
+            # print("\n--- LLM CONFIG: RAW JSON ---", flush=True)
+            # print(generation_config.model_dump_json(), flush=True)
+            print("\n--- LLM SAFETY INPUT: PROMPT ---", flush=True)
+            print(prompt, flush=True)
+            print("-------------------------------------\n", flush=True)
+
         # Pass both the prompt and the generation config to the client
         response = client.generate_content(prompt, generation_config=generation_config)
         
         if config_loader.llm_config.app.debug_mode:
             # --- DEBUGGING: Dump raw JSON response to console ---
-            print("\n--- LLM SAFETY OUTPUT: RAW JSON RESPONSE ---")
-            print(response.text)
-            print("-------------------------------------\n")
+            print("\n--- LLM SAFETY OUTPUT: RAW JSON RESPONSE ---", flush=True)
+            print(response.text, flush=True)
+            print("-------------------------------------\n", flush=True)
 
         return SafetyAnalysis.model_validate_json(response.text)
     except ValidationError as e:
@@ -78,8 +87,19 @@ def call_gemini_for_safety_check(prompt: str, config_loader: "ConfigLoader") -> 
         st.write("Raw AI Response:")
         st.code(response.text if 'response' in locals() else "No response from AI.", language="json")
         return None
+    except google_exceptions.ResourceExhausted as e:
+        st.error("API Quota Exceeded", icon="😥")
+        st.warning(
+            "It looks like the daily usage limit for the free Gemini API has been reached. "
+            "This limit typically resets within 24 hours. Please check your Google AI Platform billing details, or try again tomorrow."
+        )
+        if config_loader.llm_config.app.debug_mode:
+            print(f"\n--- GEMINI API QUOTA ERROR (Safety Check) ---\n{type(e).__name__}: {e}\n---------------------------\n", flush=True)
+        return None
     except Exception as e:
         st.error("An unexpected error occurred while communicating with the Gemini API for the safety check.")
+        if config_loader.llm_config.app.debug_mode:
+            print(f"\n--- GEMINI API ERROR (Safety Check) ---\n{type(e).__name__}: {e}\n---------------------------\n", flush=True)
         st.exception(e)
         return None
 
@@ -98,16 +118,16 @@ def call_gemini_for_analysis(prompt: str, config_loader: "ConfigLoader") -> Opti
     
     generation_config = genai.types.GenerationConfig(**gen_config_dict)
 
-    print("--- Calling Gemini API for Analysis (REAL) ---")
+    print("--- Calling Gemini API for Analysis (REAL) ---", flush=True)
     try:
         # Pass both the prompt and the generation config to the client
         response = client.generate_content(prompt, generation_config=generation_config)
         
         if config_loader.llm_config.app.debug_mode:
             # --- DEBUGGING: Dump raw JSON response to console ---
-            print("\n--- LLM OUTPUT: RAW JSON RESPONSE ---")
-            print(response.text)
-            print("-------------------------------------\n")
+            print("\n--- LLM OUTPUT: RAW JSON RESPONSE ---", flush=True)
+            print(response.text, flush=True)
+            print("-------------------------------------\n", flush=True)
 
         return LLMAnalysisResult.model_validate_json(response.text)
     except ValidationError as e:
@@ -116,7 +136,18 @@ def call_gemini_for_analysis(prompt: str, config_loader: "ConfigLoader") -> Opti
         st.write("Raw AI Response:")
         st.code(response.text if 'response' in locals() else "No response from AI.", language="json")
         return None
+    except google_exceptions.ResourceExhausted as e:
+        st.error("API Quota Exceeded", icon="😥")
+        st.warning(
+            "It looks like the daily usage limit for the free Gemini API has been reached. "
+            "This limit typically resets within 24 hours. Please check your Google AI Platform billing details, or try again tomorrow."
+        )
+        if config_loader.llm_config.app.debug_mode:
+            print(f"\n--- GEMINI API QUOTA ERROR (Analysis) ---\n{type(e).__name__}: {e}\n---------------------------\n", flush=True)
+        return None
     except Exception as e:
         st.error("An unexpected error occurred while communicating with the Gemini API.")
+        if config_loader.llm_config.app.debug_mode:
+            print(f"\n--- GEMINI API ERROR (Analysis) ---\n{type(e).__name__}: {e}\n---------------------------\n", flush=True)
         st.exception(e)
         return None

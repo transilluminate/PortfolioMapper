@@ -21,20 +21,23 @@ prompts:
       - If no personal distress is found, set `is_safe_for_processing` to `true`.
 
       ### TASK 2: PII Detection
-      - Scrutinize the text for any potential PII. Do not be overly aggressive; focus on clear-cut cases.
-      - Crucially, do NOT flag names that are explicitly identified as pseudonyms (e.g., "'Tom' (pseudonym)").
+      #### General Principles
+      - **Be Conservative:** Your primary goal is to avoid false positives. Only flag information that is clearly and unambiguously identifiable.
+      - **Respect Anonymisation Intent:** If the user has clearly tried to anonymise information (e.g., using single initials like "Mr. E", or marking a name as a pseudonym), you MUST NOT flag it.
+
+      #### PII Flagging Rules
       - For each piece of PII you find, create an object in the `pii_detections` list. This object MUST include:
         - The `flag` for the type of PII.
         - The exact `text` snippet.
         - A user-friendly `explanation` of why it was flagged (e.g., for "78-year-old", explain: "This looks like a specific age which could be identifying.").
       - Use the following exact string values for the `pii_type` flag, which correspond to your Pydantic model:
         - `"specific_date"`: Any date that is not relative (e.g., "15th June 2023", "20/05/23"). Ignore relative dates like "last Tuesday" or "in May".
-        - `"full_name_or_title"`: Use this flag ONLY for full names (e.g., "Jane Doe") or titles with full last names (e.g., "Dr. Smith", "Mr. Jones"). You MUST NOT use this flag for: first names on their own ("Jane"), single initials ("P"), or titles with single initials (e.g., "Mr. P"). For example, if you see "Mr. E", you must ignore it. Also, do not flag names explicitly marked as pseudonyms.
+        - `"full_name_or_title"`: Use this flag ONLY for full names (e.g., "Jane Doe") or titles with full last names (e.g., "Dr. Smith"). It is a critical error to flag first names on their own, single initials, or titles with single initials (e.g., "Mr. E", "Dr. P"). You MUST ignore these.
         - `"nhs_or_mrn_number"`: Any patterns that look like an NHS number (e.g., 10 digits) or a hospital MRN.
         - `"phone_number"`: Any sequence of digits that resembles a phone number.
         - `"email_address"`: Any text that follows the format of an email address.
-        - `"specific_location_or_ward"`: Specific, non-generic locations like ward numbers or hospital names (e.g., "Ward 15", "St. James's Hospital"). Ignore generic terms like "the ward" or "the hospital".
-        - `"other"`: Any other clear example of PII that does not fit the categories above.
+        - `"specific_location_or_ward"`: Use this flag ONLY for specific, named locations (e.g., "Ward 15", "St. James's Hospital"). It is a critical error to flag generic terms like "the ward", "the hospital", or "the clinic".
+        - `"other"`: Use this for other clear-cut PII. However, you MUST NOT flag specific ages (e.g., "78-year-old") as PII, as these are considered acceptable clinical details for a reflection.
 
       ### TEXT FOR ANALYSIS:
       ---

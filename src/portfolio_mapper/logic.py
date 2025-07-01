@@ -68,15 +68,18 @@ def _recursive_prune_nodes(nodes: List[FrameworkNode], academic_level_key: str) 
             if node_copy.source_notes is None:
                 node_copy.source_notes = []
 
+            # As per user suggestion, listify the child nodes to make them more distinct for the LLM.
             if descendant_leaf_nodes:
-                context_str = "This principle is demonstrated by evidence of the following points:"
+                # Add a clear introductory note.
+                node_copy.source_notes.append("This principle is demonstrated by evidence of the following points:")
+                
+                # Add each child statement as a separate, structured note.
                 sorted_leaf_nodes = sorted(descendant_leaf_nodes, key=lambda x: x[0])
                 for stmt_id, stmt_text in sorted_leaf_nodes:
-                    context_str += f"\n- {stmt_text} ({stmt_id})"
-                node_copy.source_notes.append(context_str)
+                    node_copy.source_notes.append(f"- {stmt_text} (ID: {stmt_id})")
             
             # Automatically set the instruction for collapsed nodes.
-            node_copy.llm_instructions = f"This is a high-level principle. If you match this node, you MUST use its 'display_id' ('{node_copy.display_id}') for the 'competency_id' in your response. In your 'justification_for_level', you should then reference the most relevant child statement IDs to support your reasoning."
+            node_copy.llm_instructions = f"This is a high-level principle. If you match this node, you MUST use its 'display_id' ('{node_copy.display_id}') for the 'competency_id' in your response. In your 'justification_for_level', you should then reference the most relevant supporting competency IDs (e.g., 'ID: 1.1', 'ID: 6.2') to support your reasoning."
             
             node_copy.children = None
             node_copy.collapse_children = False
@@ -110,7 +113,7 @@ def assemble_safety_prompt(
     """
     Assembles the prompt for the initial safety and PII check.
     """
-    print("--- Assembling Safety Check Prompt ---")
+    print("--- Assembling Safety Check Prompt ---", flush=True)
     output_schema = json.dumps(SafetyAnalysis.model_json_schema(), indent=2)
 
     return prompt_obj.template.format(
@@ -133,7 +136,7 @@ def assemble_analysis_prompt(
     """
     Assembles the final, massive prompt string to send to the LLM.
     """
-    print("--- Assembling Analysis Prompt ---")
+    print("--- Assembling Analysis Prompt ---", flush=True)
 
     output_schema = json.dumps(LLMAnalysisResult.model_json_schema(), indent=2)
 
@@ -149,11 +152,11 @@ def assemble_analysis_prompt(
     frameworks_json_string = json.dumps(pruned_frameworks, indent=2)
 
     if debug_mode:
-        print("\n--- LLM INPUT: FRAMEWORKS JSON ---")
-        print(frameworks_json_string)
-        print("\n--- LLM INPUT: OUTPUT SCHEMA JSON ---")
-        print(output_schema)
-        print("------------------------------------\n")
+        print("\n--- LLM INPUT: FRAMEWORKS JSON ---", flush=True)
+        print(frameworks_json_string, flush=True)
+        print("\n--- LLM INPUT: OUTPUT SCHEMA JSON ---", flush=True)
+        print(output_schema, flush=True)
+        print("------------------------------------\n", flush=True)
 
     return prompt_obj.template.format(
         tone=prompt_obj.tone or "",
