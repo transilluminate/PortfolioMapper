@@ -34,7 +34,7 @@ LOADING_MESSAGES = [
     "Defluffing the justification matrix...",
     "Herding the LLM's thought-cats...",
     "Debiasing the digital supervisor...",
-    "Synthesizing the synergy...",
+    "Synthesising the synergy...",
     "Extrapolating the evidence vector...",
     "Deconstructing the narrative...",
     "Charging the flux capacitor...",

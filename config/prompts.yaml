@@ -62,6 +62,12 @@ prompts:
       ### CRITICAL RULES
       1.  **Prioritize Specificity:** You MUST always match against the most specific, granular competency statement available (the deepest node in a hierarchy). For example, if a node has children, you should try to match one of the children rather than the parent node itself.
       2.  **Follow Explicit Instructions:** If a competency node in the `FRAMEWORKS` JSON has an `llm_instructions` field, you MUST follow those instructions for that specific node. Those instructions override all other general rules.
+      3.  **Rank All Matches by Strength:** For every competency you match, you MUST assign a `match_strength` score from 1 to 5 based on the following scale:
+          - **5 (Very Strong):** Evidence is explicit, direct, and supported by multiple, distinct quotes from the reflection.
+          - **4 (Strong):** Evidence is explicit and supported by a clear, high-quality quote.
+          - **3 (Moderate):** Evidence is clear but relies on a single sentence or phrase.
+          - **2 (Weak):** The link is present but requires some interpretation or inference.
+          - **1 (Very Weak):** A tenuous link that is largely inferred from the text.
 
       ### YOUR TASK
       Your primary task is to act as a systematic assessor. You must analyze the user's reflection and exhaustively map it against ALL competency frameworks provided in the `FRAMEWORKS` JSON object below. For each framework, you must consider all of its domains and competencies.

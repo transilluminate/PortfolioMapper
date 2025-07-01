@@ -206,16 +206,22 @@ def render_results(framework_library: Dict[str, FrameworkFile]):
 
     st.header("💡 Suggested Matching Competencies")
     if analysis_result.assessed_competencies:
+        # Sort competencies by strength as a fallback, though the prompt asks the LLM to do this.
+        sorted_competencies = sorted(
+            analysis_result.assessed_competencies, 
+            key=lambda c: c.match_strength, 
+            reverse=True
+        )
         grouped_competencies = defaultdict(list)
-        for competency in analysis_result.assessed_competencies:
+        for competency in sorted_competencies:
             grouped_competencies[competency.framework_code].append(competency)
 
         for framework_code, competencies in grouped_competencies.items():
             framework_obj = framework_library.get(framework_code)
             st.subheader(f"{framework_obj.metadata.abbreviation}: {framework_obj.metadata.title}" if framework_obj else f"Matches for: {framework_code}")
-            for competency in sorted(competencies, key=lambda c: c.competency_id):
+            for competency in competencies: # Already sorted by strength
                 with st.expander(f"**({competency.competency_id}) {competency.competency_text}**"):
-                    st.markdown(f"**Achieved Level:** `{competency.achieved_level}`")
+                    st.markdown(f"**Match Strength:** {'⭐' * competency.match_strength} ({competency.match_strength}/5)  \n**Achieved Level:** `{competency.achieved_level}`")
                     st.info(f"**Justification:** {competency.justification_for_level}")
                     if competency.emerging_evidence_for_next_level:
                         st.warning(f"**Emerging Evidence for Next Level:** {competency.emerging_evidence_for_next_level}")

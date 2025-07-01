@@ -6,7 +6,7 @@
 # For commercial licensing inquiries, please contact adrian.j.robinson@gmail.com
 
 from typing import Dict, List, Set
-from pydantic import BaseModel
+from pydantic import BaseModel, ConfigDict
 
 from .config import Role, AcademicLevel
 from .framework import FrameworkFile
@@ -24,6 +24,7 @@ class UserSelections(BaseModel):
     selected_role_display: str
     selected_level_name: str
 
-    class Config:
-        arbitrary_types_allowed = True
-
+    model_config = ConfigDict(
+        arbitrary_types_allowed=True,
+        revalidate_instances='never'
+    )
