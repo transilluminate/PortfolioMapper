@@ -167,8 +167,36 @@ This software is provided under a dual-license model:
 -   **MIT License:** For use by the National Health Service (NHS) in the UK.
 -   **Commercial License:** For any other use, a separate license is required. Please contact adrian.j.robinson@gmail.com for inquiries.
 
-## 💥 Live Demonstration
+## 🎥 Watch in Action
 
-A hosted instance is available at: https://portfoliomapper.streamlit.app/
+https://github.com/user-attachments/assets/c1d8bd53-fc14-4e01-b32e-7298cfc6b8f2
+
+### Fake reflection for this demonstration:
+
+> I was recently asked to support the acute inpatient ward with a case involving 'Tom' (pseudonym), a young man with a mild learning disability who was admitted during a mental health crisis. Tom was presenting with extreme anxiety and behaviour that the team found challenging, and he was not engaging with the standard ward routine. The staff felt unequipped to manage his needs, and there was a risk of his distress being seen simply as a component of his learning disability, a classic case of diagnostic overshadowing.
+>
+> My initial focus was to conduct a comprehensive assessment that accounted for both his acute mental state and his communication needs. I worked alongside the ward team to introduce reasonable adjustments, such as using an easy-read daily planner and a communication passport that we co-developed with Tom's family. This immediately helped reduce his anxiety by making the environment more predictable. I also spent time with the ward nurses, modelling how to adapt their communication and explaining how Tom's anxiety was a separate clinical issue, which required a different approach to his baseline needs.
+>
+> Following this intervention, Tom's engagement improved significantly, and the ward staff reported feeling more confident in their ability to provide him with appropriate care. The experience highlighted a clear systems-level gap in knowledge. As a result, I am now collaborating with the trust's Learning Disability liaison team to develop a basic 'crisis pack' for ward admissions. This will include templates for communication passports and guidance on making reasonable adjustments, ensuring we provide equitable and effective care for all patients, bridging the gap between mental health and learning disability services.
+
+### Output Excerpt:
+
+> CfAP Advanced: Mental Health (2022): Mental health advanced practice area specific capability and curriculum framework
+>
+> (3.2) 'Develop differential judgements, recognising key biases and common errors, including diagnostic overshadowing and the issues relating to diagnosis in the face of ambiguity and incomplete data'
+> 
+> Match strength: 4/5
+> 
+> Achieved Level: Advanced (Managing Complexity)
+> 
+> Jusitification: The reflection explicitly mentions 'diagnostic overshadowing' and the actions taken to mitigate this risk, demonstrating an awareness of potential biases and errors in diagnosis, aligning with the 'Advanced' level's focus on managing complexity. The user states, "The staff felt unequipped to manage his needs, and there was a risk of his distress being seen simply as a component of his learning disability, a classic case of diagnostic overshadowing."
+> 
+> Emerging evidence for next level: To reach the 'Masters Level', consider critically analysing the systemic factors that contribute to diagnostic overshadowing within the trust. You could explore relevant literature or guidelines to inform your approach and evaluate the effectiveness of the 'crisis pack' in addressing this issue.
+
+Downloaded full CSV output for the demo: [sample_portfolio_analysis.csv](https://github.com/user-attachments/files/21023731/sample_portfolio_analysis.csv)
+
+## 💥 Live App Instance
+
+A hosted live app instance is available at: https://portfoliomapper.streamlit.app/
 
 I may run out of [free-tier resources](https://ai.google.dev/gemini-api/docs/rate-limits#current-rate-limits) with the API calls... check back later if so!
