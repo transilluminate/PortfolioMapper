@@ -66,18 +66,19 @@ PortfolioMapper/
 
 ## 🧠 Key Concepts
 
-### Programmatic Prompt Engineering
+### The Pedagogical Harness
 
-A key innovation in this project is the move away from hardcoding complex instructions in the prompt configuration. Instead, the `logic.py` module dynamically processes the framework data before sending it to the AI:
+A key innovation in this project is that it acts as a **"Pedagogical Harness"** for the underlying AI. The code's primary role is to act as a coordinator, assembling multiple layers of human-defined rules and data to provide a scaffold for the LLM. This ensures a pedagogically-aligned analysis on every run.
 
-1.  **For Collapsed Nodes (`collapse_children: true`):** The logic automatically gathers all child statements, embeds them as context for the parent, and injects a forceful instruction telling the AI it **must** use the parent's ID in its response.
-2.  **For Nested Hierarchies:** The logic identifies any intermediate node (a node that still has children) and programmatically adds an instruction forbidding the AI from matching it directly.
+This is achieved through several layers of programmatic constraint:
 
-This approach forces the AI to always match the most granular, specific competency available and ensures consistent behavior across all frameworks, all without cluttering the YAML files with boilerplate instructions.
+1.  **The Master Prompt:** A master directive sets the "rules of engagement," forcing the AI to act exclusively as an expert clinical educator with a professional, constructive tone.
+2.  **Structured Frameworks:** Professional frameworks are encoded into a universal, machine-readable format (YAML). This provides a hard boundary for the AI, focusing it solely on the required standards.
+3.  **Programmatic Instruction Injection:** The application's logic intelligently processes the framework data before sending it to the AI. It identifies nodes that shouldn't be matched (e.g., parent domains) and programmatically injects instructions to forbid the AI from selecting them. This forces the AI to always match the most granular, specific competency available.
 
 ### The Academic Levels Idea
 
-The application assesses reflections on two axes: **what** was done (competency matching) and **how well** it was reflected upon (academic level). The `config/academic_levels.yaml` file defines a rubric that the AI uses to evaluate the depth of critical thinking in the user's writing.
+The application assesses reflections on two axes: **what** was done (competency matching) and **how well** it was reflected upon (academic level). The `config/academic_levels.yaml` file defines a clear, pre-defined rubric that the AI uses to evaluate the depth of critical thinking in the user's writing.
 
 This allows the tool to provide much more nuanced feedback. It can recognize, for example, that a reflection might demonstrate a specific competency but only at a "Foundational" level (describing what happened) rather than a "Doctoral" level (critiquing the system and generating new knowledge). This concept is central to the tool's ability to provide meaningful developmental feedback.
 

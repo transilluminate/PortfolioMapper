@@ -95,6 +95,42 @@ def render_sidebar(config_loader: ConfigLoader, framework_library: Dict[str, Fra
         selected_level_name=selected_level_name
     )
 
+def _get_analysis_button_state(config_loader: ConfigLoader, user_selections: UserSelections) -> tuple[bool, str]:
+    """
+    Calculates the disabled state and tooltip for the main analysis button.
+    Returns a tuple of (is_disabled: bool, tooltip_text: str).
+    """
+    min_len = config_loader.llm_config.app.min_reflection_length
+
+    # Condition 1: Basic readiness checks
+    if not user_selections.selected_framework_codes:
+        return True, "Please select one or more frameworks to map against."
+    if not st.session_state.anonymisation_confirmed:
+        return True, "Please confirm your reflection is anonymised before proceeding."
+    if len(st.session_state.reflection_text.strip()) < min_len:
+        return True, f"Please enter at least {min_len} characters of reflection text."
+
+    # Condition 2: Check for active safety warnings that block analysis
+    if st.session_state.safety_analysis_result:
+        if not st.session_state.safety_analysis_result.is_safe_for_processing:
+            return True, "Analysis is disabled due to a user safety concern. Please see the message below."
+        if (st.session_state.safety_analysis_result.pii_detections and not st.session_state.analysis_result):
+            return True, "Please review and acknowledge the PII warning below to proceed."
+
+    # Condition 3: Check if analysis is running or already complete for the current inputs
+    if st.session_state.processing:
+        return True, "Analysis is in progress..."
+
+    if st.session_state.analysis_result and st.session_state.last_analysis_reflection is not None:
+        reflection_is_same = st.session_state.reflection_text == st.session_state.last_analysis_reflection
+        frameworks_are_same = set(user_selections.all_required_codes) == st.session_state.last_analysis_frameworks
+        if reflection_is_same and frameworks_are_same:
+            return True, "Analysis complete. Change inputs or clear results to re-analyse."
+
+    # If all checks pass, the button is enabled
+    return False, "Click to begin the AI analysis of your reflection."
+
+
 def render_main_inputs(config_loader: ConfigLoader, user_selections: UserSelections, clear_state_callback, invalidate_callback):
     """Renders the main page content area for user input."""
     st.header("3. Your Reflection")
@@ -117,39 +153,8 @@ def render_main_inputs(config_loader: ConfigLoader, user_selections: UserSelecti
         )
 
     with col2:
-        # Determine if the button should be enabled
-        min_len = config_loader.llm_config.app.min_reflection_length
-        is_ready = bool(
-            len(st.session_state.reflection_text.strip()) >= min_len and 
-            user_selections.selected_framework_codes and 
-            st.session_state.anonymisation_confirmed
-        )
-
-        has_unchanged_result = False
-        if st.session_state.analysis_result and st.session_state.last_analysis_reflection is not None:
-            reflection_is_same = st.session_state.reflection_text == st.session_state.last_analysis_reflection
-            frameworks_are_same = set(user_selections.all_required_codes) == st.session_state.last_analysis_frameworks
-            if reflection_is_same and frameworks_are_same:
-                has_unchanged_result = True
-
-        # 3. Check for safety flags that should disable the button
-        pii_warning_is_active = False
-        user_distress_is_active = False
-        if st.session_state.safety_analysis_result:
-            if not st.session_state.safety_analysis_result.is_safe_for_processing:
-                user_distress_is_active = True
-            elif (st.session_state.safety_analysis_result.pii_detections and not st.session_state.analysis_result):
-                pii_warning_is_active = True
-
-        button_disabled = bool(st.session_state.processing or not is_ready or has_unchanged_result or pii_warning_is_active or user_distress_is_active)
-        tooltip = "Please select frameworks and confirm anonymisation to enable analysis."
-        if user_distress_is_active:
-            tooltip = "Analysis is disabled due to a user safety concern. Please see the message below."
-        elif pii_warning_is_active:
-            tooltip = "Please review and acknowledge the PII warning below to proceed."
-        elif has_unchanged_result: tooltip = "Analysis complete. Change inputs to re-analyse."
-        elif st.session_state.processing: tooltip = "Analysis is in progress..."
-        elif len(st.session_state.reflection_text.strip()) < min_len: tooltip = f"Please enter at least {min_len} characters."
+        # Get button state from the helper function
+        button_disabled, tooltip = _get_analysis_button_state(config_loader, user_selections)
 
         if st.button("✨ Analyse Reflection", type="primary", use_container_width=True, disabled=button_disabled, help=tooltip):
             st.session_state.processing = True
@@ -227,14 +232,25 @@ def render_results(framework_library: Dict[str, FrameworkFile]):
                         st.warning(f"**Emerging Evidence for Next Level:** {competency.emerging_evidence_for_next_level}")
         
         st.subheader("📋 Tabular View & Download")
-        df = pd.DataFrame([c.model_dump() for c in analysis_result.assessed_competencies])
-        df['framework_abbreviation'] = df['framework_code'].apply(lambda code: framework_library.get(code).metadata.abbreviation if framework_library.get(code) else code)
-        column_order = ["framework_abbreviation", "competency_id", "achieved_level", "justification_for_level", "emerging_evidence_for_next_level"]
-        df = df[[col for col in column_order if col in df.columns]]
-        df.rename(columns={"framework_abbreviation": "Framework", "competency_id": "Competency ID", "achieved_level": "Achieved Level", "justification_for_level": "Justification", "emerging_evidence_for_next_level": "Next Level Evidence"}, inplace=True)
-        st.dataframe(df, use_container_width=True, hide_index=True)
+        df_data = [c.model_dump() for c in analysis_result.assessed_competencies]
+        df = pd.DataFrame(df_data)
+        df['framework_abbreviation'] = df['framework_code'].apply(
+            lambda code: framework_library.get(code).metadata.abbreviation if framework_library.get(code) else code
+        )
         
-        csv = df.to_csv(index=False).encode('utf-8')
+        column_map = {
+            "framework_abbreviation": "Framework",
+            "competency_id": "Competency ID",
+            "achieved_level": "Achieved Level",
+            "justification_for_level": "Justification",
+            "emerging_evidence_for_next_level": "Next Level Evidence"
+        }
+        
+        final_cols_original = [col for col in column_map.keys() if col in df.columns]
+        results_df = df[final_cols_original].rename(columns=column_map)
+        st.dataframe(results_df, use_container_width=True, hide_index=True)
+        
+        csv = results_df.to_csv(index=False).encode('utf-8')
         timestamp = datetime.now().strftime("%Y-%m-%d_%H%M")
         
         col1, col2 = st.columns(2)
@@ -251,14 +267,14 @@ def render_footer():
     with st.expander("About this App & Data Handling"):
         st.markdown(
             """
-            #### :material/psychology: How does this work?
-            This tool acts as an intelligent assistant to help you understand your own practice. When you submit a reflection, the app doesn't just do a simple keyword search. Instead, it performs a sophisticated, multi-step process:
+            #### :material/psychology: The Pedagogical Harness: How it Works
+            This tool's intelligence is not arbitrary. It acts as a sophisticated **"pedagogical harness"** that constrains and directs the power of the underlying AI (Google's Gemini model). The code's primary role is to assemble multiple layers of human-defined rules and data to provide a scaffold for the LLM, ensuring a pedagogically-aligned analysis on every run.
 
-            1.  **Packaging the Prompt:** It takes your reflection, the competency frameworks you selected, and a detailed set of instructions, and bundles them into a single, comprehensive "prompt".
-            2.  **AI Analysis:** This entire package is sent to Google's Gemini AI model. The AI is instructed to act like an expert clinical supervisor. Its job is to meticulously read your reflection and find direct evidence that maps to the specific competencies in the frameworks.
-            3.  **Structured Feedback:** The AI then provides structured feedback, justifying every match it finds by quoting your own words and explaining how it aligns with the competency's requirements.
+            1.  **The Master Prompt:** A core directive sets the "rules of engagement," forcing the AI to act exclusively as an expert clinical educator with a professional, constructive tone.
+            2.  **The Structured Frameworks:** The competency frameworks you select are encoded in a machine-readable format. This provides a hard boundary for the AI, focusing it solely on the required standards.
+            3.  **The Academic Levels:** A clear rubric for academic rigor provides the final quality filter, forcing the AI to evaluate your reflection against a pre-defined standard of critical thinking.
 
-            This systematic approach provides a consistent and objective first pass of your reflection, saving you hours of manually cross-referencing documents.
+            The result is a consistent and objective first pass of your reflection, saving you hours of manually cross-referencing documents while providing targeted feedback.
 
             #### :material/school: What are the 'Academic Levels'?
             A key feature of this tool is its ability to assess not just *what* you did, but *how well you reflected on it*. The academic levels provide a structured way to evaluate the depth of your critical thinking.

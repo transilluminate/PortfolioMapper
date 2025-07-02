@@ -29,7 +29,7 @@ prompts:
       - For each piece of PII you find, create an object in the `pii_detections` list. This object MUST include:
         - The `flag` for the type of PII.
         - The exact `text` snippet.
-        - A user-friendly `explanation` of why it was flagged (e.g., for "78-year-old", explain: "This looks like a specific age which could be identifying.").
+        - A user-friendly `explanation` of why it was flagged (e.g., for "07700900123", explain: "This looks like a UK mobile phone number.").
       - Use the following exact string values for the `pii_type` flag, which correspond to your Pydantic model:
         - `"specific_date"`: Any date that is not relative (e.g., "15th June 2023", "20/05/23"). Ignore relative dates like "last Tuesday" or "in May".
         - `"full_name_or_title"`: Use this flag ONLY for full names (e.g., "Jane Doe") or titles with full last names (e.g., "Dr. Smith"). It is a critical error to flag first names on their own, single initials, or titles with single initials (e.g., "Mr. E", "Dr. P"). You MUST ignore these.
